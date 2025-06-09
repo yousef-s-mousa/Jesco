@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT US",
+    "seasons": "SEASONS",
+    "processing": "PROCESSING",
+    "gallery": "GALLERY",
+    "products": "PRODUCTS",
+    "contact": "CONTACT US"
+  },
+  "hero": {
+    "title": "Jesco",
+    "subtitle": "bridging nature's bounty to your table"
+  },
+  "features": {
+    "natural": {
+      "title": "100% Natural",
+      "description": "Our products are 100% natural, grown with care, and harvested at the peak of freshness. We take pride in offering fruits that are free from artificial additives, preservatives, or chemicals. Our commitment to quality ensures that every fruit we export is a pure, natural delight, perfect for consumers around the world who value taste, health, and sustainability."
+    },
+    "fresh": {
+      "title": "Always Fresh",
+      "description": "We guarantee that our products are always fresh, carefully harvested, and quickly transported to maintain their peak quality. From farm to table, we prioritize efficiency and speed in our export process to ensure that every fruit reaches our customers at the height of freshness."
+    },
+    "quality": {
+      "title": "Best Quality",
+      "description": "Our products are synonymous with the highest quality. We handpick only the finest fruits, ensuring that each one meets rigorous standards for size, color, and taste. With a focus on excellence at every step of the process—from cultivation to packaging—we deliver premium fruits that stand out in both flavor and appearance."
+    }
+  },
+  "company": {
+    "welcome": "Welcome To Jesco",
+    "description": "Jesco Import and Export Company cooperates with service providers such as sea, land, air, and postal shipping companies or customs brokers, exhibition and event organizing companies, and others all the time. The company always establishes the principle of fair commercial cooperation in all its dealings believing that it is the basis of success and that transparency and credibility are the company's human capital on which its basic principles are based."
+  },
+  "products": {
+    "title": "Our Products",
+    "navel_orange": "NAVEL ORANGE",
+    "lanylet_orange": "LANYLET ORANGE",
+    "valencia_orange": "VALENCIA ORANGE",
+    "vermont": "VERMONT",
+    "red_onion": "RED ONION",
+    "golden_onion": "GOLDEN ONION",
+    "mango": "MANGO",
+    "grapes": "GRAPES",
+    "lemon": "LEMON",
+    "pomegranate": "POMEGRANATE",
+    "grape_fruit": "GRAPE FRUIT",
+    "murcott": "MURCOTT",
+    "beans": "BEANS",
+    "garlic": "GARLIC",
+    "lettuce": "LETTUCE AL-KABOUCHY",
+    "strawberries": "STRAWBERRIES",
+    "roman_pepper": "ROMAN PEPPER"
+  },
+  "certificates": {
+    "title": "Our Certificates"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name_placeholder": "Your Name",
+    "email_placeholder": "Your Email",
+    "subject_placeholder": "Subject",
+    "message_placeholder": "Message",
+    "send_button": "Send Message"
+  },
+  "footer": {
+    "description": "Jesco is one of the best companies in the field of exporting agricultural crops (vegetables and fruits)",
+    "processing_title": "PROCESSING",
+    "sorting": "SORTING",
+    "packing": "PACKING",
+    "export": "EXPORT",
+    "useful_links": "Useful Links",
+    "contact_title": "Contact Us",
+    "address": "20 mohamed El-Mahdy ST El Golf Land - Nasr city - Cairo - Egypt",
+    "copyright": "© Copyright 2024 Jesco. All Rights Reserved."
+  }
+}

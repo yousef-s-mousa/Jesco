@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "STARTSEITE",
+    "about": "ÜBER UNS",
+    "seasons": "JAHRESZEITEN",
+    "processing": "VERARBEITUNG",
+    "gallery": "GALERIE",
+    "products": "PRODUKTE",
+    "contact": "KONTAKT"
+  },
+  "hero": {
+    "title": "Jesco",
+    "subtitle": "Natures Reichtum auf Ihren Tisch bringen"
+  },
+  "features": {
+    "natural": {
+      "title": "100% Natürlich",
+      "description": "Unsere Produkte sind 100% natürlich, sorgfältig angebaut und auf dem Höhepunkt der Frische geerntet. Wir sind stolz darauf, Früchte anzubieten, die frei von künstlichen Zusätzen, Konservierungsstoffen oder Chemikalien sind. Unser Engagement für Qualität stellt sicher, dass jede Frucht, die wir exportieren, ein reiner, natürlicher Genuss ist, perfekt für Verbraucher auf der ganzen Welt, die Geschmack, Gesundheit und Nachhaltigkeit schätzen."
+    },
+    "fresh": {
+      "title": "Immer Frisch",
+      "description": "Wir garantieren, dass unsere Produkte immer frisch sind, sorgfältig geerntet und schnell transportiert werden, um ihre höchste Qualität zu erhalten. Vom Feld bis zum Tisch priorisieren wir Effizienz und Geschwindigkeit in unserem Exportprozess, um sicherzustellen, dass jede Frucht unsere Kunden auf dem Höhepunkt der Frische erreicht."
+    },
+    "quality": {
+      "title": "Beste Qualität",
+      "description": "Unsere Produkte sind synonym mit höchster Qualität. Wir pflücken nur die besten Früchte von Hand und stellen sicher, dass jede strenge Standards für Größe, Farbe und Geschmack erfüllt. Mit einem Fokus auf Exzellenz bei jedem Schritt des Prozesses—von der Kultivierung bis zur Verpackung—liefern wir Premium-Früchte, die sowohl im Geschmack als auch im Aussehen hervorstechen."
+    }
+  },
+  "company": {
+    "welcome": "Willkommen bei Jesco",
+    "description": "Jesco Import- und Exportgesellschaft arbeitet ständig mit Dienstleistern wie See-, Land-, Luft- und Postversandunternehmen oder Zollmaklern, Messe- und Veranstaltungsorganisationsunternehmen und anderen zusammen. Das Unternehmen etabliert immer das Prinzip der fairen kommerziellen Zusammenarbeit in all seinen Geschäften und glaubt, dass es die Grundlage des Erfolgs ist und dass Transparenz und Glaubwürdigkeit das menschliche Kapital des Unternehmens sind, auf dem seine Grundprinzipien basieren."
+  },
+  "products": {
+    "title": "Unsere Produkte",
+    "navel_orange": "NAVEL ORANGE",
+    "lanylet_orange": "LANYLET ORANGE",
+    "valencia_orange": "VALENCIA ORANGE",
+    "vermont": "VERMONT",
+    "red_onion": "ROTE ZWIEBEL",
+    "golden_onion": "GOLDENE ZWIEBEL",
+    "mango": "MANGO",
+    "grapes": "TRAUBEN",
+    "lemon": "ZITRONE",
+    "pomegranate": "GRANATAPFEL",
+    "grape_fruit": "GRAPEFRUIT",
+    "murcott": "MURCOTT",
+    "beans": "BOHNEN",
+    "garlic": "KNOBLAUCH",
+    "lettuce": "SALAT AL-KABOUCHY",
+    "strawberries": "ERDBEEREN",
+    "roman_pepper": "RÖMISCHER PFEFFER"
+  },
+  "certificates": {
+    "title": "Unsere Zertifikate"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "name_placeholder": "Ihr Name",
+    "email_placeholder": "Ihre E-Mail",
+    "subject_placeholder": "Betreff",
+    "message_placeholder": "Nachricht",
+    "send_button": "Nachricht senden"
+  },
+  "footer": {
+    "description": "Jesco ist eines der besten Unternehmen im Bereich des Exports landwirtschaftlicher Erzeugnisse (Gemüse und Früchte)",
+    "processing_title": "VERARBEITUNG",
+    "sorting": "SORTIERUNG",
+    "packing": "VERPACKUNG",
+    "export": "EXPORT",
+    "useful_links": "Nützliche Links",
+    "contact_title": "Kontaktieren Sie uns",
+    "address": "20 mohamed El-Mahdy ST El Golf Land - Nasr city - Kairo - Ägypten",
+    "copyright": "© Copyright 2024 Jesco. Alle Rechte vorbehalten."
+  }
+}
