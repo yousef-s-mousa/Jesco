@@ -48,7 +48,12 @@
     "garlic": "KNOBLAUCH",
     "lettuce": "SALAT AL-KABOUCHY",
     "strawberries": "ERDBEEREN",
-    "roman_pepper": "RÖMISCHER PFEFFER"
+    "roman_pepper": "RÖMISCHER PFEFFER",
+    "green_beans": "GRÜNE BOHNEN",
+    "onion": "ZWIEBEL",
+    "Pepper/Capsicum": "PAPRIKA",
+    "White_Cabbage": "WEISSKOHL",
+    "kabouchy": "KOPFSALAT AL-KABOUCHY"
   },
   "certificates": {
     "title": "Unsere Zertifikate"
@@ -71,5 +76,58 @@
     "contact_title": "Kontaktieren Sie uns",
     "address": "20 mohamed El-Mahdy ST El Golf Land - Nasr city - Kairo - Ägypten",
     "copyright": "© Copyright 2024 Jesco. Alle Rechte vorbehalten."
+  },
+  "AboutPage": {
+    
+  "title": "Unsere Merkmale",
+  "fresh": {
+    "title": "Immer Frisch",
+    "description": "Wir garantieren, dass unsere Produkte immer frisch sind, sorgfältig geerntet und schnell transportiert werden, um ihre höchste Qualität zu bewahren. Vom Feld bis auf den Tisch legen wir Wert auf Effizienz und Schnelligkeit im Exportprozess, damit jede Frucht unsere Kunden auf dem Höhepunkt ihrer Frische erreicht. Ob Sie unsere Früchte lokal oder auf der ganzen Welt genießen – Sie können darauf vertrauen, dass sie denselben lebendigen Geschmack und die knackige Textur bieten wie im Moment der Ernte."
+  },
+  "quality": {
+    "title": "Beste Qualität",
+    "description": "Unsere Produkte stehen für höchste Qualität. Wir wählen nur die besten Früchte von Hand aus und stellen sicher, dass jede einzelne strenge Standards hinsichtlich Größe, Farbe und Geschmack erfüllt. Mit einem Fokus auf Exzellenz in jedem Schritt – vom Anbau bis zur Verpackung – liefern wir Premium-Früchte, die sowohl im Geschmack als auch im Aussehen überzeugen. Wenn Sie sich für unsere Produkte entscheiden, wählen Sie das Beste, was die Natur zu bieten hat."
+  },
+  "welcome_message": "Die Jesco Import und Export GmbH basiert auf dem Prinzip einer fairen, transparenten und für alle Seiten vorteilhaften Zusammenarbeit. Mit einem besonderen Fokus auf den weltweiten Handel mit frischem Obst und Gemüse setzt sich Jesco dafür ein, starke und langfristige Beziehungen zu allen Akteuren der internationalen Lieferkette aufzubauen. Wir begrüßen die Zusammenarbeit mit Obst- und Gemüseproduzenten, die ihre Ernte exportieren möchten, mit Importeuren und Distributoren, die hochwertige Produkte benötigen, mit Fabriken, die Rohstoffe oder verarbeitete landwirtschaftliche Produkte suchen, sowie mit Unternehmen, die sich mit dem Import oder Export verderblicher Waren beschäftigen. Jesco arbeitet außerdem mit wichtigen Logistik- und Dienstleistungsanbietern zusammen, wie See-, Luft-, Land- und Postversandunternehmen, Spezialisten für Kühlkettenlogistik, Zollagenten und Organisatoren von Agrarmessen und Veranstaltungen. Für Jesco sind Glaubwürdigkeit, Transparenz und Fairness nicht nur betriebliche Werte – sie sind unser wertvollstes Gut und die wahre Grundlage jeder erfolgreichen Partnerschaft. Durch ehrliche Zusammenarbeit und professionelle Integrität streben wir danach, in jeder Lieferung Exzellenz zu liefern und gemeinsames Wachstum auf dem globalen Markt für Obst und Gemüse zu fördern.",
+  "mission": {
+    "title": "Unsere Mission",
+    "description": "Bei Jesco ist es unsere Mission, die Welt mit den besten und frischesten Früchten und Gemüsen aus Ägypten zu verbinden und außergewöhnliche Qualität und Wert durch vertrauenswürdige Exportdienstleistungen zu liefern. Wir bieten umfassende Lösungen einschließlich professionellem Sortieren, Verpacken und Logistik, damit unsere Kunden Produkte erhalten, die den höchsten Standards für Frische, Geschmack und Nachhaltigkeit entsprechen. Unser Ziel ist es, langfristige Partnerschaften aufzubauen, den globalen Handel zu fördern und zum Erfolg jedes Kunden beizutragen – und dabei ethische Grundsätze einzuhalten und das reiche landwirtschaftliche Erbe Ägyptens zu unterstützen."
   }
+ },
+ "seasons": {
+    "title": "Jahreszeiten",
+    "tabletitle": "TABELLE LANDWIRTSCHAFTLICHER KULTUREN",
+    "agenda": "Zitrus-Agenda",
+    "months": {
+      "1": "Jan",
+      "2": "Feb",
+      "3": "Mär",
+      "4": "Apr",
+      "5": "Mai",
+      "6": "Jun",
+      "7": "Jul",
+      "8": "Aug",
+      "9": "Sep",
+      "10": "Okt",
+      "11": "Nov",
+      "12": "Dez"
+    },
+    "fruitAgenda": "Obst-Agenda",
+    "vegetables Agenda": "Gemüse-Agenda"
+  },
+  "processing": {
+    "title": "VERARBEITUNG",
+    "sorting": "Sortierung",
+    "sorting_description": "Unser erster Schritt ist die sorgfältige Sortierung jeder Frucht, bei der wir jedes Stück auf Größe, Farbe und Reifegrad prüfen. Mit moderner Sortiertechnologie entfernen wir beschädigte oder minderwertige Früchte, sodass nur die besten in die nächste Phase gelangen. Diese Liebe zum Detail garantiert, dass jede Charge unseren strengen Qualitätskriterien entspricht.",
+    "packing": "Verpackung",
+    "packing_description": "Nach der Sortierung werden unsere Früchte mit größter Sorgfalt verpackt, um ihre Frische zu bewahren und Transportschäden zu vermeiden. Wir verwenden speziell entwickelte Verpackungsmaterialien, die optimale Bedingungen für jede Fruchtsorte gewährleisten, sodass sie sowohl bei lokalen als auch internationalen Lieferungen perfekt ankommen. Unser Verpackungsprozess ist auf die individuellen Bedürfnisse jeder Frucht abgestimmt und schützt die Qualität von Anfang bis Ende.",
+    "exporting": "EXPORT",
+    "exporting_description": "Schließlich sorgt unser effizienter Exportprozess dafür, dass unsere Produkte schnell und sicher an Bestimmungsorte auf der ganzen Welt gelangen. Mit einem umfangreichen Logistiknetzwerk steuern wir jeden Aspekt des Exportprozesses – von der Zollabfertigung bis zum Transport – und gewährleisten pünktliche Lieferungen sowie die Unversehrtheit unserer Produkte bis zum Kunden. Wir bieten unseren internationalen Kunden ein reibungsloses Erlebnis, damit sie überall auf der Welt die besten Früchte aus Ägypten genießen können."
+  },
+  "gallery": {
+    "title": "Galerie",
+    "videos": "Unsere Videos"
+  }
+ 
 }
+

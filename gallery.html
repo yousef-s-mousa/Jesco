@@ -47,14 +47,22 @@
       </div>
            <div class="collapse navbar-collapse" id="onepage-nav">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="aboutus.html">ABOUT US</a></li> 
-          <li><a href="seasons.html">SEASONS</a></li> 
-          <li><a href="prossesing.html">PROCESSING</a></li>
-          <li><a href="gallery.html">GALLERY</a></li>
-          <li><a href="product.html">PRODUCTS</a></li> 
-          <li><a href="contact.html">CONTACT US</a></li> 
-        </ul>
+            <li><a href="index.html" data-translate="nav.home">HOME</a></li>
+            <li><a href="aboutus.html" data-translate="nav.about">ABOUT US</a></li>
+            <li><a href="seasons.html" data-translate="nav.seasons">SEASONS</a></li>
+            <li><a href="prossesing.html" data-translate="nav.processing">PROCESSING</a></li>
+            <li><a href="gallery.html" data-translate="nav.gallery">GALLERY</a></li>
+            <li><a href="product.html" data-translate="nav.products">PRODUCTS</a></li>
+            <li><a href="contact.html" data-translate="nav.contact">CONTACT US</a></li>
+            <li class="language-switcher">
+              <select id="languageSelect" onchange="changeLanguage()">
+                <option value="en" data-flag="🇺🇸">English</option>
+                <option value="es" data-flag="🇪🇸">Español</option>
+                <option value="de" data-flag="🇩🇪">Deutsch</option>
+                <option value="ru" data-flag="🇷🇺">Русский</option>
+              </select>
+            </li>
+          </ul>
       </div>
     </div>
   </nav>
@@ -64,7 +72,7 @@
     <div class="content" role="main">
             <div class="section bg-parallax" data-parallax="scroll" data-image-src="images/backgrounds/parallax_bg_01.jpg" id="product">
       <div class="container">
-          <h1 style="color:white;" class="section-title">Gallery</h1>
+          <h1 style="color:white;" class="section-title" data-translate="gallery.title">Gallery</h1>
                 </div>
         </div>
         
@@ -165,7 +173,7 @@
         </div>
           <div class="row">
 
-            <h1 style="color:#000;" class="section-title">Our Video</h1>
+            <h1 style="color:#000;" class="section-title" data-translate="gallery.videos">Our Video</h1>
 
             <div class="col-md-3 wow zoomIn">
               <div class="event-wrap">
@@ -299,58 +307,80 @@
     <!-- FOOTER
   ============================================== -->
   <footer class="footer">
-    <div class="footer-widgets">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 footer-widget">
-            <img class="footer-logo" src="images/footer/footer_logo.png" alt="...">
-            <p class="pd-r-md">Jesco is one of the best companies in the field of exporting agricultural crops (vegetables and fruits)</p>
-          </div>
-          <div class="col-md-3 footer-widget">
-            <h4 class="widget-title">PROCESSING</h4>
-            <ul class="links list-unstyled">
-              <li><a href="prossesing.html">SORTING</a></li>
-              <li><a href="prossesing.html">PACKING</a></li>
-              <li><a href="prossesing.html">EXPORT</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 footer-widget">
-            <h4 class="widget-title">Useful links</h4>
-            <ul class="links list-unstyled">
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="aboutus.html">ABOUT US</a></li> 
-              <li><a href="prossesing.html">PROCESSING</a></li>
-              <li><a href="product.html">PRODUCTS</a></li> 
-              <li><a href="contact.html">CONTACT US</a></li>     
-            </ul>         
-          </div>
-          <div class="col-md-3 footer-widget">
-            <h4 class="widget-title">Contact us</h4>
-            <ul class="links list-unstyled">
-              <li><i class="fa fa-envelope mg-r-sm"></i><span>info@jesco-eg.com</span></li>
-              <li><i class="fa fa-phone-square mg-r-sm"></i><span>+20 128 1492 456</span></li>             
-              <li><i class="fa fa-home mg-r-sm"></i><span>20 mohamed El-Mahdy ST El Golf Land - Nasr city - Cairo - Egypt</span></li>
-            </ul>
+      <div class="footer-widgets">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 footer-widget">
+              <img class="footer-logo" src="images/footer/footer_logo.png" alt="..." />
+              <p class="pd-r-md" data-translate="footer.description">
+                Jesco is one of the best companies in the field of exporting
+                agricultural crops (vegetables and fruits)
+              </p>
+            </div>
+            <div class="col-md-3 footer-widget">
+              <h4 class="widget-title" data-translate="footer.processing_title">PROCESSING</h4>
+              <ul class="links list-unstyled">
+                <li><a href="prossesing.html" data-translate="footer.sorting">SORTING</a></li>
+                <li><a href="prossesing.html" data-translate="footer.packing">PACKING</a></li>
+                <li><a href="prossesing.html" data-translate="footer.export">EXPORT</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 footer-widget">
+              <h4 class="widget-title" data-translate="footer.useful_links">Useful links</h4>
+              <ul class="links list-unstyled">
+                <li><a href="index.html" data-translate="nav.home">HOME</a></li>
+                <li><a href="aboutus.html" data-translate="nav.about">ABOUT US</a></li>
+                <li><a href="prossesing.html" data-translate="nav.processing">PROCESSING</a></li>
+                <li><a href="product.html" data-translate="nav.products">PRODUCTS</a></li>
+                <li><a href="contact.html" data-translate="nav.contact">CONTACT US</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 footer-widget">
+              <h4 class="widget-title" data-translate="footer.contact_title">Contact us</h4>
+              <ul class="links list-unstyled">
+                <li>
+                  <i class="fa fa-envelope mg-r-sm"></i>
+                  <span>info@jesco-eg.com</span>
+                </li>
+                <li>
+                  <i class="fa fa-phone-square mg-r-sm"></i>
+                  <span>+20 128 1492 456</span>
+                </li>
+                <li>
+                  <i class="fa fa-home mg-r-sm"></i>
+                  <span data-translate="footer.address">
+                    20 mohamed El-Mahdy ST El Golf Land - Nasr city - Cairo - Egypt
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-4 copyright-text">
-            <p class="text-white">© Copyright 2024 Jesco. All Rights Reserved.</p>
-          </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-4 copyright-text">
+              <p class="text-white" data-translate="footer.copyright">
+                © Copyright 2024 Jesco. All Rights Reserved.
+              </p>
+            </div>
             <div class="col-md-6"></div>
-          <div class="col-md-3 col-sm-8 block-socials hidden-xxs">
-            <a class="socials-facebook" href="https://www.facebook.com/profile.php?id=61567760617629" title="facebook"><i class="fa fa-facebook"></i></a>
-            <a class="socials-youtube" href="https://www.youtube.com/@Jesco-Exporting.and.Importing" title="youtube"><i class="fa fa-youtube-play"></i></a>                  
-            <a class="socials-twitter" href="https://www.instagram.com/jescoegypt/" title="instagram"><i class="fa fa-instagram"></i></a>
-          </div>                 
+            <div class="col-md-3 col-sm-8 block-socials hidden-xxs">
+              <a class="socials-facebook" href="https://www.facebook.com/profile.php?id=61567760617629" title="facebook">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a class="socials-youtube" href="https://www.youtube.com/@Jesco-Exporting.and.Importing" title="youtube">
+                <i class="fa fa-youtube-play"></i>
+              </a>
+              <a class="socials-twitter" href="https://www.instagram.com/jescoegypt/" title="instagram">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </div>
+          </div>
         </div>
-      </div>      
-    </div>
-  </footer>
+      </div>
+    </footer>
 
   <!-- SCRIPTS
   ============================================== -->
@@ -358,7 +388,6 @@
   <script src="javascripts/core/bootstrap/bootstrap.js"></script> 
   <script src="javascripts/plugins/waypoints.min.js"></script> 
   <script src="javascripts/plugins/wow.min.js"></script>
-  <script src="javascripts/plugins/validator.min.js"></script>
   <script src="javascripts/plugins/owlcarousel.min.js"></script>   
   <script src="javascripts/plugins/parallax.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
@@ -366,6 +395,8 @@
   <script src="javascripts/plugins/retina.min.js"></script>  
   <script src="javascripts/scripts.js"></script>
   <script src="stylesheets/fancybox.min.js"></script>
+  <script src="javascripts/translation.js"></script>
+
 
 </body>
 

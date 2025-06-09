@@ -47,14 +47,22 @@
       </div>
         <div class="collapse navbar-collapse" id="onepage-nav">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="aboutus.html">ABOUT US</a></li> 
-          <li><a href="seasons.html">SEASONS</a></li> 
-          <li><a href="prossesing.html">PROCESSING</a></li>
-          <li><a href="gallery.html">GALLERY</a></li>
-          <li><a href="product.html">PRODUCTS</a></li> 
-          <li><a href="contact.html">CONTACT US</a></li> 
-        </ul>
+            <li><a href="index.html" data-translate="nav.home">HOME</a></li>
+            <li><a href="aboutus.html" data-translate="nav.about">ABOUT US</a></li>
+            <li><a href="seasons.html" data-translate="nav.seasons">SEASONS</a></li>
+            <li><a href="prossesing.html" data-translate="nav.processing">PROCESSING</a></li>
+            <li><a href="gallery.html" data-translate="nav.gallery">GALLERY</a></li>
+            <li><a href="product.html" data-translate="nav.products">PRODUCTS</a></li>
+            <li><a href="contact.html" data-translate="nav.contact">CONTACT US</a></li>
+            <li class="language-switcher">
+              <select id="languageSelect" onchange="changeLanguage()">
+                <option value="en" data-flag="🇺🇸">English</option>
+                <option value="es" data-flag="🇪🇸">Español</option>
+                <option value="de" data-flag="🇩🇪">Deutsch</option>
+                <option value="ru" data-flag="🇷🇺">Русский</option>
+              </select>
+            </li>
+          </ul>
       </div>
     </div>
   </nav>
@@ -64,7 +72,7 @@
     <div class="content" role="main">
             <div class="section bg-parallax" data-parallax="scroll" data-image-src="images/backgrounds/parallax_bg_01.jpg" id="our-photos">
       <div class="container">
-          <h1 style="color:white;" class="section-title">PROCESSING</h1>
+          <h1 style="color:white;" class="section-title"data-translate="processing.title">PROCESSING</h1>
                 </div>
         </div>
         
@@ -73,10 +81,10 @@
         <div class="section-header">
           <div class="col-xs-12">
               <br>
-            <h1 class="section-title">Sorting</h1><br>
+            <h1 class="section-title"data-translate="processing.sorting">Sorting</h1><br>
             </div>
             <div class="row">
-            <div class="col-md-6"><p>Our first step is the careful sorting of each fruit, where we inspect every piece for size, color, and ripeness. Using advanced sorting technology, we eliminate any damaged or substandard fruits to ensure only the best make it to the next stage. This attention to detail guarantees that each batch meets our stringent quality criteria.
+            <div class="col-md-6"><p data-translate="processing.sorting_description">Our first step is the careful sorting of each fruit, where we inspect every piece for size, color, and ripeness. Using advanced sorting technology, we eliminate any damaged or substandard fruits to ensure only the best make it to the next stage. This attention to detail guarantees that each batch meets our stringent quality criteria.
               <p>
                <h5></h5> <p></p>
                <h5></h5>  <p> </p>
@@ -91,11 +99,11 @@
         <div class="section-header">
           <div class="col-xs-12">
               <br>
-            <h1 style="color:white;" class="section-title">Packing</h1><br>
+            <h1 style="color:white;" class="section-title"data-translate="processing.packing">Packing</h1><br>
             </div>
             <div class="row">
                  <div class="col-md-6"><img src="images/image-2d.jpg"></div>
-            <div class="col-md-6"><p style="color:white;">Once sorted, our fruits are packed with the utmost care to preserve their freshness and prevent any damage during transport. We use specially designed packaging materials that maintain the ideal conditions for each type of fruit, ensuring that they arrive in perfect condition, whether it's a local shipment or an international delivery. Our packing process is tailored to each fruit's unique requirements, safeguarding its quality from start to finish.            </p></div>
+            <div class="col-md-6"><p style="color:white;"data-translate="processing.packing_description">Once sorted, our fruits are packed with the utmost care to preserve their freshness and prevent any damage during transport. We use specially designed packaging materials that maintain the ideal conditions for each type of fruit, ensuring that they arrive in perfect condition, whether it's a local shipment or an international delivery. Our packing process is tailored to each fruit's unique requirements, safeguarding its quality from start to finish.            </p></div>
            
             </div>
                   </div>
@@ -105,10 +113,10 @@
         <div class="section-header">
           <div class="col-xs-12">
               <br>
-            <h1 class="section-title">EXPORTING</h1><br>
+            <h1 class="section-title"data-translate="processing.exporting">EXPORTING</h1><br>
             </div>
             <div class="row">
-            <div class="col-md-6"><p>Finally, our efficient exporting process ensures that our products reach destinations around the globe swiftly and safely. With an extensive logistics network, we manage every aspect of the export process—from customs clearance to transportation—ensuring timely deliveries and maintaining the integrity of our products all the way to the customer. We are committed to providing a seamless experience for our international clients, allowing them to enjoy the best of Egypt's fruits, no matter where they are.</p></div>
+            <div class="col-md-6"><p data-translate="processing.exporting_description">Finally, our efficient exporting process ensures that our products reach destinations around the globe swiftly and safely. With an extensive logistics network, we manage every aspect of the export process—from customs clearance to transportation—ensuring timely deliveries and maintaining the integrity of our products all the way to the customer. We are committed to providing a seamless experience for our international clients, allowing them to enjoy the best of Egypt's fruits, no matter where they are.</p></div>
             <div class="col-md-6"><img src="images/image-2a.jpg"></div>
             </div>
                   </div>
@@ -123,58 +131,80 @@
   <!-- FOOTER
   ============================================== -->
   <footer class="footer">
-    <div class="footer-widgets">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 footer-widget">
-            <img class="footer-logo" src="images/footer/footer_logo.png" alt="...">
-            <p class="pd-r-md">Jesco is one of the best companies in the field of exporting agricultural crops (vegetables and fruits)</p>
-          </div>
-          <div class="col-md-3 footer-widget">
-            <h4 class="widget-title">PROCESSING</h4>
-            <ul class="links list-unstyled">
-              <li><a href="prossesing.html">SORTING</a></li>
-              <li><a href="prossesing.html">PACKING</a></li>
-              <li><a href="prossesing.html">EXPORT</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 footer-widget">
-            <h4 class="widget-title">Useful links</h4>
-            <ul class="links list-unstyled">
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="aboutus.html">ABOUT US</a></li> 
-              <li><a href="prossesing.html">PROCESSING</a></li>
-              <li><a href="product.html">PRODUCTS</a></li> 
-              <li><a href="contact.html">CONTACT US</a></li>     
-            </ul>         
-          </div>
-          <div class="col-md-3 footer-widget">
-            <h4 class="widget-title">Contact us</h4>
-            <ul class="links list-unstyled">
-              <li><i class="fa fa-envelope mg-r-sm"></i><span>info@jesco-eg.com</span></li>
-              <li><i class="fa fa-phone-square mg-r-sm"></i><span>+20 128 1492 456</span></li>             
-              <li><i class="fa fa-home mg-r-sm"></i><span>20 mohamed El-Mahdy ST El Golf Land - Nasr city - Cairo - Egypt</span></li>
-            </ul>
+      <div class="footer-widgets">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 footer-widget">
+              <img class="footer-logo" src="images/footer/footer_logo.png" alt="..." />
+              <p class="pd-r-md" data-translate="footer.description">
+                Jesco is one of the best companies in the field of exporting
+                agricultural crops (vegetables and fruits)
+              </p>
+            </div>
+            <div class="col-md-3 footer-widget">
+              <h4 class="widget-title" data-translate="footer.processing_title">PROCESSING</h4>
+              <ul class="links list-unstyled">
+                <li><a href="prossesing.html" data-translate="footer.sorting">SORTING</a></li>
+                <li><a href="prossesing.html" data-translate="footer.packing">PACKING</a></li>
+                <li><a href="prossesing.html" data-translate="footer.export">EXPORT</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 footer-widget">
+              <h4 class="widget-title" data-translate="footer.useful_links">Useful links</h4>
+              <ul class="links list-unstyled">
+                <li><a href="index.html" data-translate="nav.home">HOME</a></li>
+                <li><a href="aboutus.html" data-translate="nav.about">ABOUT US</a></li>
+                <li><a href="prossesing.html" data-translate="nav.processing">PROCESSING</a></li>
+                <li><a href="product.html" data-translate="nav.products">PRODUCTS</a></li>
+                <li><a href="contact.html" data-translate="nav.contact">CONTACT US</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 footer-widget">
+              <h4 class="widget-title" data-translate="footer.contact_title">Contact us</h4>
+              <ul class="links list-unstyled">
+                <li>
+                  <i class="fa fa-envelope mg-r-sm"></i>
+                  <span>info@jesco-eg.com</span>
+                </li>
+                <li>
+                  <i class="fa fa-phone-square mg-r-sm"></i>
+                  <span>+20 128 1492 456</span>
+                </li>
+                <li>
+                  <i class="fa fa-home mg-r-sm"></i>
+                  <span data-translate="footer.address">
+                    20 mohamed El-Mahdy ST El Golf Land - Nasr city - Cairo - Egypt
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-4 copyright-text">
-            <p class="text-white">© Copyright 2024 Jesco. All Rights Reserved.</p>
-          </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-4 copyright-text">
+              <p class="text-white" data-translate="footer.copyright">
+                © Copyright 2024 Jesco. All Rights Reserved.
+              </p>
+            </div>
             <div class="col-md-6"></div>
-          <div class="col-md-3 col-sm-8 block-socials hidden-xxs">
-            <a class="socials-facebook" href="https://www.facebook.com/profile.php?id=61567760617629" title="facebook"><i class="fa fa-facebook"></i></a>
-            <a class="socials-youtube" href="https://www.youtube.com/@Jesco-Exporting.and.Importing" title="youtube"><i class="fa fa-youtube-play"></i></a>                  
-            <a class="socials-twitter" href="https://www.instagram.com/jescoegypt/" title="instagram"><i class="fa fa-instagram"></i></a>
-          </div>                 
+            <div class="col-md-3 col-sm-8 block-socials hidden-xxs">
+              <a class="socials-facebook" href="https://www.facebook.com/profile.php?id=61567760617629" title="facebook">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a class="socials-youtube" href="https://www.youtube.com/@Jesco-Exporting.and.Importing" title="youtube">
+                <i class="fa fa-youtube-play"></i>
+              </a>
+              <a class="socials-twitter" href="https://www.instagram.com/jescoegypt/" title="instagram">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </div>
+          </div>
         </div>
-      </div>      
-    </div>
-  </footer>
+      </div>
+    </footer>
 
   <!-- SCRIPTS
   ============================================== -->
@@ -182,13 +212,13 @@
   <script src="javascripts/core/bootstrap/bootstrap.js"></script> 
   <script src="javascripts/plugins/waypoints.min.js"></script> 
   <script src="javascripts/plugins/wow.min.js"></script>
-  <script src="javascripts/plugins/validator.min.js"></script>
   <script src="javascripts/plugins/owlcarousel.min.js"></script>   
   <script src="javascripts/plugins/parallax.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   <script src="javascripts/plugins/gmap.js"></script>
   <script src="javascripts/plugins/retina.min.js"></script>  
   <script src="javascripts/scripts.js"></script>
+  <script src="javascripts/translation.js"></script>
 
 </body>
 

@@ -48,7 +48,14 @@
     "garlic": "GARLIC",
     "lettuce": "LETTUCE AL-KABOUCHY",
     "strawberries": "STRAWBERRIES",
-    "roman_pepper": "ROMAN PEPPER"
+    "roman_pepper": "ROMAN PEPPER",
+    "green_beans": "GREEN BEANS",
+    "onion": "ONION",
+    "Pepper/Capsicum": "PEPPER/CAPSICUM",
+    "White_Cabbage": "WHITE CABBAGE",
+    "kabouchy":"LETTUCE AL-KABOUCHY"
+    
+    
   },
   "certificates": {
     "title": "Our Certificates"
@@ -73,9 +80,54 @@
   "copyright": "© Copyright 2024 Jesco. All Rights Reserved."
 },
 "AboutPage":{
-  "title": "Our Features"
+  "title": "Our Features",
+  "fresh":{
+    "title": "Always Fresh",
+    "description": "We guarantee that our products are always fresh, carefully harvested, and quickly transported to maintain their peak quality. From farm to table, we prioritize efficiency and speed in our export process to ensure that every fruit reaches our customers at the height of freshness. Whether you're enjoying them locally or halfway around the world, you can trust that our fruits deliver the same vibrant taste and crisp texture as the moment they were picked."
+  },
+  "quality":{
+    "title": "Best Quality",
+    "description": "Our products are synonymous with the highest quality. We handpick only the finest fruits, ensuring that each one meets rigorous standards for size, color, and taste. With a focus on excellence at every step of the process—from cultivation to packaging—we deliver premium fruits that stand out in both flavor and appearance. When you choose our products, you’re choosing the best nature has to offer."
+  },
+  "welcome_message": "Jesco Import and Export Company is built on the principle of fair, transparent, and mutually beneficial commercial cooperation. With a specialized focus on the global trade of fresh fruits and vegetables, Jesco is committed to establishing strong, long-term relationships with all parties involved in the international supply chain. We welcome cooperation with fruit and vegetable producers seeking to export their harvests, importers and distributors in need of premium-quality produce, factories requiring raw or processed agricultural inputs, and businesses engaged in the import or export of perishable goods. Jesco also partners with essential logistics and service providers such as sea, air, land, and postal shipping companies, cold chain logistics specialists, customs clearance agents, and organizers of agricultural exhibitions and trade events. At Jesco, we believe that credibility, transparency, and fairness are not just operational values—they are our most valuable assets and the true foundation of every successful partnership. Through honest collaboration and professional integrity, we strive to deliver excellence in every shipment and foster shared growth in the global fruits and vegetables market.",
+  "mission":{
+    "description": "At Jesco, our mission is to connect the world with the finest, freshest fruits and vegetables from Egypt, delivering exceptional quality and value through trusted export services. We are dedicated to providing end-to-end solutions including expert sorting, packing, and logistics, ensuring our clients receive products that meet the highest standards of freshness, flavor, and sustainability. Our commitment is to build long-term partnerships, promote global trade, and contribute to the success of every customer we serve—while upholding ethical practices and proudly supporting Egypt’s rich agricultural heritage.",
+    "title": "Our Mission"
+    }
+},
+  "seasons": {
+    "title": "Seasons",
+    "tabletitle": "AGRICULTURAL CROPS TABLES",
+    "agenda":"Citrus agenda",
+    "months": {
+    "1": "Jan",
+    "2": "Feb",
+    "3": "Mar",
+    "4": "Apr",
+    "5": "May",
+    "6": "Jun",
+    "7": "Jul",
+    "8": "Aug",
+    "9": "Sep",
+    "10": "Oct",
+    "11": "Nov",
+    "12": "Dec"
+  },
+  "fruitAgenda":"Fruit agenda",
+  "vegetables Agenda":"Vegetables agenda"
+  },
+  "processing": {
+    "title": "PROCESSING",
+    "sorting": "Sorting",
+    "sorting_description": "Our first step is the careful sorting of each fruit, where we inspect every piece for size, color, and ripeness. Using advanced sorting technology, we eliminate any damaged or substandard fruits to ensure only the best make it to the next stage. This attention to detail guarantees that each batch meets our stringent quality criteria.",
+    "packing": "Packing",
+    "packing_description": "Once sorted, our fruits are packed with the utmost care to preserve their freshness and prevent any damage during transport. We use specially designed packaging materials that maintain the ideal conditions for each type of fruit, ensuring that they arrive in perfect condition, whether it's a local shipment or an international delivery. Our packing process is tailored to each fruit's unique requirements, safeguarding its quality from start to finish.",
+    "exporting": "EXPORTING",
+    "exporting_description": "Finally, our efficient exporting process ensures that our products reach destinations around the globe swiftly and safely. With an extensive logistics network, we manage every aspect of the export process—from customs clearance to transportation—ensuring timely deliveries and maintaining the integrity of our products all the way to the customer. We are committed to providing a seamless experience for our international clients, allowing them to enjoy the best of Egypt's fruits, no matter where they are."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "videos": "Our Videos"
+  }
 
-  
-
-}
 }
