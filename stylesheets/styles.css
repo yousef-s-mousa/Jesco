@@ -11606,29 +11606,49 @@ section, .section {
 /* Counter item
 ---------------------------- */
 .counter-item {
-  text-align: center; }
+  text-align: center;
+}
+
+.counter-item .counter-value {
+  color: #fff;
+  font-size: 2em;
+  padding: 18px;
+  line-height: 1em;
+  margin: 0;
+  font-weight: bold; /* Added for better visibility */
+}
+
+@media (max-width: 480px) {
   .counter-item .counter-value {
-    color: #fff;
-    font-size: 2em;
-    padding: 18px;
-    line-height: 1em;
-    margin: 0; }
-    @media (max-width: 480px) {
-      .counter-item .counter-value {
-        font-size: 38px !important;
-        text-align: center !important; } }
+    font-size: 2.375em; /* 38px converted to em for consistency */
+    text-align: center; /* Removed !important - not needed since parent has center alignment */
+    padding: 12px; /* Reduced padding for mobile */
+  }
+}
+
+.counter-item .counter-desc {
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 0.875em; /* Added consistent font size */
+  letter-spacing: 0.5px; /* Added for better readability */
+}
+
+@media (max-width: 480px) {
   .counter-item .counter-desc {
-    color: rgba(255, 255, 255, 0.95);
-    margin-bottom: 0;
-    text-transform: uppercase; }
-    @media (max-width: 480px) {
-      .counter-item .counter-desc {
-        text-align: center; } }
-  @media (max-width: 480px) {
-    .counter-item {
-      display: block;
-      width: 50%;
-      margin: 20px 0; } }
+    text-align: center;
+    font-size: 0.75em; /* Smaller on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .counter-item {
+    display: block;
+    width: 50%;
+    margin: 20px auto; /* Added auto for better centering */
+    box-sizing: border-box; /* Added for better width calculation */
+  }
+}
 
 /* --------------------------------------------------
  ## COMPONENT: NAMECARDS
@@ -12342,3 +12362,48 @@ div.image {max-width: 256px;max-height: 256px;background-image: url(data:image/s
 
 .text {color:black;}
 .blog-detail-list {color: black;}
+/* Language Switcher Styles */
+.language-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.language-switcher select {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid orange;
+  border-radius: 25px;
+  padding: 8px 15px;
+  margin: 0 0 0 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.language-switcher select:hover {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 15px rgba(255, 210, 10, 0.3);
+}
+
+.language-switcher select:focus {
+  outline: none;
+  border-color: orange;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .language-switcher {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .language-switcher select {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
+/*  */
