@@ -127,7 +127,176 @@
   "gallery": {
     "title": "Galerie",
     "videos": "Unsere Videos"
-  }
- 
+  },
+"novel-orange":{
+"p1": "Die Navel-Orange hat ihren Ursprung in einem einzigen Baum, der 1820 in Brasilien gepflanzt wurde. Dieser Baum hatte eine Mutation, die dazu führte, dass zwei Orangen in einer einzigen Frucht produziert wurden. Die zweite Orange, die sich am unteren Ende der Frucht, gegenüber dem Stiel, entwickelt, gibt der Navel-Orange ihren Namen, da diese zweite Orange vage einem menschlichen Nabel ähnelt.",
+"p2": "Die sekundäre Orange ist von großer Bedeutung, da sie die Orange kernlos macht. Da diesen Früchten die Samen fehlen, mussten die Bauern Techniken wie Schneiden und Veredeln anwenden, um den Baum weiter zu produzieren. Daher kann jede Navel-Orange als ein Produkt dieses einzigen Baumes betrachtet werden, der vor über 200 Jahren gepflanzt wurde! Die Navel-Orange ist die ultimative Orange zum Essen aus der Hand. Weder übermäßig säuerlich noch süß, produziert die Navel-Orange hervorragenden Orangensaft und kann leicht segmentiert und mit Freunden geteilt werden - das heißt, wenn Sie bereit sind zu teilen.",
+"s1": "NAVEL ORANGEN GESCHMACK & REIFE",
+"p3": "Navel-Orangen haben keine Kerne, eine leicht zu schälende Schale und köstlich saftiges Fruchtfleisch voller Zitrusgeschmack, was sie zu einem Muss für jeden Obstliebhaber macht. Orangen gehören zu den Früchten, die am besten schmecken, wenn sie am Baum gereift sind. The Fruit Company lässt ihre gesamten Zitrusfrüchte am Baum reifen, um sie Ihnen auf ihrem Höhepunkt zu liefern. Bitte schälen und genießen Sie diese Orange, sobald sie bei Ihnen ankommt.",
+"details":{
+"p1": "Beschreibung: große und mittlere Größe, kernlos und rund.",
+"p2": "Qualität: Güteklasse A",
+"p3": "Größen: 36, 40, 48, 56, 64, 72, 80, 88, 100 und 113 pro Masterkarton 15 KG",
+"p4": "Saison: Gefärbtes Produkt: Oktober bis November: Natürliche Farbe Dezember bis März."
+}
+},
+"beans": {
+"description": "Die grünen Bohnen gibt es in zwei Hauptgruppen: Buschbohnen und Stangenbohnen. Die Buschbohne gehört zu den Kurztagpflanzen, die ohne Unterstützung eine Länge von zwei Fuß erreichen. Diese Sträucher reifen im Allgemeinen und produzieren alle ihre Früchte in relativ kurzer Zeit, dann stoppen sie ihre Produktion. Die Bauern können in derselben Saison mehr als eine Ernte von der Buschbohne anbauen.",
+"details": {
+"season": "Saison: Von Oktober bis Januar.",
+"packaging": "Verpackung: Karton mit 5 Beuteln, wobei das Gewicht jedes Beutels 500 g entspricht. / Plastikbox wiegt 5 kg."
+}
+},
+"garlic": {
+"description": "Knoblauch ist eine grasartige Pflanze, die in allen Regionen der Welt angebaut wird. Knoblauch gehört zu den Pflanzen, die seit jeher bekannt sind. Knoblauch war in vielen alten Zivilisationen wegen seiner prophylaktischen und therapeutischen Eigenschaften bekannt, wo er in der alten arabischen, indischen und chinesischen Medizin zur Behandlung vieler Krankheiten verwendet wurde.",
+"details": {
+"season": "Saison: Der grüne Knoblauch im Februar / Trocken von April bis September.",
+"packaging": "Verpackung: Plastikbox von 10 kg."
+}
+},
+"golden_onion": {
+"description": "Goldene Zwiebeln enthalten viel Energie, Wasser, wenige Kalorien und eine hohe Menge an Vitaminen wie: B1 und B6 sowie Folsäure. Zwiebeln stärken die Durchblutung und beugen Blutgerinnseln vor.",
+"details": {
+"quality": "Qualität: Erste Klasse.",
+"measure": "Maß: 4-6 : 6-8 : 8-12.",
+"sizes": "Größen: Klein - Mittel - Groß",
+"season": "Saison: Von Mai bis November.",
+"packaging": "Zwiebelverpackung: 5 kg, 10 kg, 15 kg, 20 kg, 25 kg / Plastik-Shikara."
+}
+},
+"grape_fruit": {
+"p1": "Die immergrünen Grapefruitbäume werden normalerweise etwa 5–6 Meter hoch, obwohl sie 13–15 m erreichen können. Die Blätter sind glänzend dunkelgrün, lang (bis zu 15 Zentimeter) und dünn. Sie produziert 5 cm große weiße vierblättrige Blüten.",
+"p2": "Die Frucht hat eine gelb-orangefarbene Schale und ist im Allgemeinen eine abgeflachte Kugel; ihr Durchmesser reicht von 10–15 cm. Das Fruchtfleisch ist segmentiert und säuerlich, wobei die Farbe je nach Sorte variiert, darunter weiße, rosa und rote Pulpen mit unterschiedlicher Süße.",
+"details": {
+"description": "Beschreibung: große und mittlere Größe, kernlos und rund.",
+"quality": "Qualität: Güteklasse A",
+"sizes": "Größen: 36, 40, 48, 56, 64 pro Masterkarton 15 KG",
+"season": "Saison: Oktober bis November"
+}
+},
+"grapes": {
+"description": "Die Trauben sind eine Obstsorte mit glatter Schale und köstlichem Geschmack. Die Trauben erscheinen in Trauben, die jeweils 20 - 60 Samen enthalten. Seit alten Zeiten aßen die Chinesen und Inder Trauben wegen ihres hohen Nährwerts. Trauben haben eine vielfältige Gruppe von Farben wie grün, weiß, rot und schwarz.",
+"superyor": {
+"title": "Superyor-Trauben",
+"description": "Ovaler Samen, dessen Farbe zwischen grün und gelb liegt. Die Größe liegt zwischen 17 mm und 25 mm."
+},
+"flame": {
+"title": "Flammentrauben",
+"description": "Sie hat einen kreisförmigen Samen, dessen Farbe rot ist, mit süßem Geschmack und ohne Samen. Die Größe reicht von 16 mm bis 22 mm."
+},
+"red_globe": {
+"title": "Red Globe Trauben",
+"description": "Hat einen großen Samen mit rosa Farbe. Diese Sorte hat Samen. Die Größen reichen von 17 mm bis 25 mm."
+},
+"kremson": {
+"title": "Kremson-Trauben",
+"description": "Beschreibung: Die Samen sind lang und haben eine dicke Schale. Diese Traubensorte gehört zu den beliebtesten wegen ihrer hohen Qualität und weil sie in der Lage ist, Wasser für eine gewisse Zeit zu speichern.",
+"quality": "Qualität: erster Grad.",
+"season": "Saison: Juli, August, September",
+"packaging": "Traubenverpackung: Karton von 4,5 kg, Plastikbox von 5 kg."
+}
+},
+"lanylet_orange": {
+"description": "Die Lanylet-Orange ist eine Erweiterung der Ernte von Abu Surra. Sie zeichnet sich durch ihre ovale Form und ihre großen Größen aus. Sie hat einen weichen Griff und das Wasserverhältnis sowie die Fasern darin sind durchschnittlich. Sie zeichnet sich auch durch ihre Festigkeit und ihre Fähigkeit aus, weite Strecken zu transportieren.",
+"details": {
+"package": "Verpackung: 80/ 72/ 64/ 56/ 48/ 42/ 40/ 36/ 30: Offener Karton von 15 kg. 88/ 80/ 72/ 64/ 56/ 48/ 40/ 30 Geschlossener Karton von 15 kg.",
+"season": "Saison: Februar, März & April."
+}
+},
+"lemon": {
+"description": "Der Zitronenbaum ist typischerweise klein und die höchste Länge, die er erreichen kann, beträgt fast sechs Meter. Zitrone ist reich an Vitamin C und hat viele Vorteile, wie z. B. entgiftend, harntreibend, antiseptisch für Wunden und als intestinales Anthelminthikum sowie zur Linderung von rheumatischen Schmerzen. Darüber hinaus ist eingeweichte Zitrone nützlich bei der Behandlung von Bauchschmerzen, Mundgeruch, mangelnden Lebersekreten, zur Regulierung des Blutdrucks, der Nieren, zur Befeuchtung des Körpers und zur Vorbeugung von Sonnenstich. Zu den wichtigsten Zitronenarten gehören die folgenden:",
+"types": {
+"egyptian": "Ägyptische Zitruszitrone (Limette): ihre Größe ist klein",
+"bruce": "Bruce-Zitrone: Sie ist grün und kernlos. Ihre Größen sind klein und mittel.",
+"dahlia": "Dahlia-Zitrone: ihre Größe ist mittel.",
+"eureka_a": "Dahlia-Zitrone (Eureka A): Ihre Größen reichen von hoch bis mittel.",
+"eureka_b": "Dahlia-Zitrone (Eureka B): Ihre Größen reichen von hoch bis mittel.",
+"limonite": "Dahlia-Zitrone (Limonit): Ihre Größen sind sehr hoch.",
+"capillary": "Kapillarzitrone: Sie ist kernlos."
+},
+"packing_title": "Das Verpacken von Zitronen erfolgt wie folgt:",
+"packing": {
+"boxes": "Sie wird in Kartons oder Plastikboxen verpackt und ihre Größen sind 56-64 - 72-80 - 88-100 - 113-125 - 135."
+}
+},
+"lettuce_kabouchy": {
+"description": "Dies ist eine Klasse von Blattgemüse, wobei der Salat zu den winterlichen Gemüsesorten gehört, die ein kaltes Klima benötigen. Er wird in geschützten und klimatisierten Häusern in der Sommersaison gepflanzt, so dass er das ganze Jahr über verfügbar ist, weil er für die Zubereitung des Salattellers wichtig ist, weil er einen hohen Nährwert hat, da er Vitamin H enthält. Salat wird in Sämlingen auf einer Linie im Durchschnitt von 12 bis 1 Linie gepflanzt.",
+"details": {
+"season": "Saison: Von September bis April.",
+"packaging": "Verpackung: Karton enthält sechs bis 12 Früchte. Der Karton wiegt 5 kg."
+}
+},
+"mango": {
+"description": "Der Mangobaum wächst im ariden, semiariden Klima und in Indien, China, Jemen, Ägypten, Gazastreifen, Sudan und im Süden des saudischen Königreichs in der Region Gazan. Mango gilt als eine wichtige Kaliumquelle, die ein wichtiges Element in der Zelle ist und bei der Kontrolle des Herzschlags und des Blutdrucks hilft.",
+"details": {
+"season": "Saison: Von Juli bis November.",
+"packaging": "Verpackung: Karton von 5 kg / Plastikbox von 5 kg / Plastikbox von 10 kg."
+}
+},
+"murcott": {
+"description": "Murcott ist eine Zitrusfrucht, die eine orange Farbe hat und hauptsächlich mit Orangen (Mandarinen) in Verbindung gebracht wird, da beide Früchte Citrus reticulata bilden. In Bezug auf die Klassifizierung wird sie vielleicht so genannt, weil sie als eine Art oder eine Sorte von Citrus reticulata gilt. Murcott ist kleiner als die Orange und leicht zu schälen und in Spalten zu teilen. Was den Geschmack betrifft, so gilt sie als weniger zitrusartig (sauer), aber sie ist stärker und süßer als der Orangengeschmack. Murcott zeichnet sich durch Merkmale wie stark, leicht weich, schwer in der Größe und eine kiesige Schale ohne tiefe Löcher aus. Arten von Murcott: - Spanische Murcott hat eine goldgelbe Farbe mit einer glatten Textur. - Kenney Murcott hat eine dunkelorange Farbe mit einer rauen Textur.",
+"details": {
+"description": "Beschreibung: große und mittlere Größe, Samen und rund.",
+"quality": "Qualität: Güteklasse A",
+"sizes": "Größen: pro Masterkarton 8, 10 KG",
+"season": "Saison: Februar bis März"
+}
+},
+"pomegranate": {
+"intro": "Die wichtigsten Granatapfelsorten sind:",
+"types": {
+"m116": "M116: Seine Größe ist klein bis mittel und die Farbe ist von außen rot.",
+"asyuti": "Asyuti-Granatapfel: Seine Größe ist klein bis mittel und die Farbe ist von innen und außen rot.",
+"native": "Einheimischer Granatapfel: Seine Größe ist mittel bis groß.",
+"wonderful": "Wunderbarer Granatapfel: Seine Größe ist mittel bis groß."
+},
+"description": "Verpackung: Granatapfel wird in offenen Kartons (oben offen) mit einem Gewicht von 5 kg verpackt, und jeder Karton enthält (6 bis 14 Früchte). Er wird in Plastikbehältern mit einem Gewicht von 20 kg verpackt. Der Granatapfelbaum hat schöne weiße und rote Blüten, die sich in eine köstliche Frucht mit einer purpurroten oder gelblich-rötlichen Haut namens Golnar verwandeln. Die Hülle dieser Frucht enthält Hunderte von leuchtend roten oder weißen Wasser Körnern. Jedes Korn enthält einen festen oder weichen Samen, je nach Qualität und Sorte des Granatapfels. Der Granatapfel ist ein Strauch, der eine Höhe von 6 Metern mit hängenden Zweigen und Dornen an den Rändern erreicht. Seine Zweige und Blätter sind fast rot. Seine Blüten haben eine hellrote Farbe mit einer schönen Form. Die Frucht ist kugelförmig und trägt eine Krone, und ihre Schale hat eine dünne Textur.",
+"detailed_info": "Die Frucht enthält viele rote Samen oder manchmal fast weiße, aber meistens haben die Samen die rubinrote Farbe. Die Blätter fallen im Herbst ab, so dass der Granatapfelbaum nicht immergrün ist. Granatapfelblüten werden Glonar genannt, was eine Arabisierung des persischen Wortes Kolnar ist, das Granatapfelblüten bedeutet. Granatapfel ist in Hieroglyphen als „Ramen“ und in koptischer Sprache als „Erman“ bekannt. Granatapfel enthält viele Vitamine und Substanzen, die für die Funktionen des Körpers wichtig sind. Die Frucht enthält Folgendes: Protein, Vitamine, Mineralien, Ballaststoffe, Antioxidantien und durchschnittlich 234 Kalorien. Darüber hinaus wird der menschliche Körper durch den Verzehr von Granatapfel in der Lage sein, einer Vielzahl von Krankheiten zu widerstehen, darunter Krebs, Osteoporose, Alzheimer, Bluthochdruck, Cholesterin, Diabetes und Lebererkrankungen.",
+"details": {
+"season": "Saison: August bis Oktober"
+}
+},
+"red_onion": {
+"description": "Die Zwiebel ist reich an Wasser und Energie mit ihren niedrigen Kalorien und reich an den Vitaminen B1 & B2, Folsäure und hilft bei der Aktivierung des Blutkreislaufs und der Senkung des Blutdrucks und der Begrenzung von Blutgerinnseln.",
+"details": {
+"description": "Beschreibung: Die Größe dieser Ölsorte reicht von klein bis mittel. Sie zeichnet sich durch ihren leichten zuckerhaltigen Geschmack aus und wird oft roh gegessen. Sie verleiht Salaten Farbe oder wird mit Speisen gebraten.",
+"quality": "Qualität: Erste Klasse.",
+"sizes": "Größen: Klein - Mittel - Groß",
+"season": "Saison: Von Mai bis November.",
+"packaging": "Verpackung: 10 kg – 15 kg – 20 kg – 2 kg / Plastik-Shikara."
+}
+},
+"roman_pepper": {
+"description": "Der römische Pfeffer oder süße Paprika wird als jene Pflanzen klassifiziert, die ein Jahr oder eine Saison leben. Der römische Pfeffer enthält viele Vitamine und Antioxidantien, die wichtig sind, um verschiedene Krebsarten zu bekämpfen. Je dunkler die Farbe des Pfeffers, desto höher die Konzentration der Antioxidantien. Der römische Pfeffer unterscheidet sich vom scharfen Pfeffer durch seinen süßen Geschmack. Der scharfe Pfeffer hat viele Arten wie den grünen, gelben, roten Pfeffer. Trotz der Variationen in den Nährstoffen in jeder der römischen Pfefferfarben, teilen sie alle eine Reihe von wichtigen für die menschliche Gesundheit. Der römische Pfeffer wird in einer Reihe von Kochrezepten verwendet, wo er ungekocht gegessen werden kann, wenn man einem der Schlankheitsrezepte folgt.",
+"details": {
+"season": "Saison: Von November bis Februar.",
+"packaging": "Verpackung: Karton mit 5 kg Gewicht / Plastikbox von 5 kg."
+}
+},
+"strawberries": {
+"description": "Erdbeeren gehören zu den Früchten, die ihre Farbe während ihres Lebens mehrmals ändern. Zuerst sind die Früchte grün und werden dann weiß und ändern dann ihre Farbe teilweise in rosa und dann in rote Farbe. Dies wird von einer Zunahme der Fruchtgröße und einer Zunahme der Luftfeuchtigkeit mit einer Zunahme der zuckerhaltigen Materialien begleitet, die 70% - 80% der löslichen Feststoffe ausmachen.",
+"details": {
+"packaging": "Verpackung: Die für den Export bestimmten Erdbeerfrüchte werden in einem Karton verpackt, der jeweils 10 Plastikschalen von 250 g enthält. / Ein Karton enthält 8 Plastikschalen von 2,5 g.",
+"season": "Saison: Von November bis Februar."
+}
+},
+"valencia_orange": {
+"p1": "Es ist eine Sommerorange, die wegen ihres hohen Saftgehalts und ihrer Verfügbarkeit außerhalb der typischen Zitrussaison geschätzt wird. Valencia-Orangen sind normalerweise dünnschalig und haben ein paar Samen. Sie gelten als eine der besten Orangen zum Entsaften.",
+"p2": "Eine mittelgroße Orange hat nur etwa 60 Kalorien und liefert 116% des Tageswerts an Vitamin C; 13% an Ballaststoffen; 10% Folsäure; 8% Thiamin; 7% Kalium; 6% Vitamin A; und 5% Kalzium.",
+"details": {
+"description": "Beschreibung: mittlere und kleine Größen, kernlos und rund.",
+"quality": "Qualität: Güteklasse A",
+"sizes": "Größen: 40, 48, 56, 64, 72, 80, 88, 100, 113 und 125 pro Masterkarton 15 KG",
+"season": "Saison: Februar bis Juni.: Natürliche Farbe Dezember bis März."
+}
+},
+"vermont": {
+"description": "Dies ist eine Art von Mandarine, die eine rote Schale hat, wobei die Spalten von innen eine dunkle Farbe haben. Sie enthält einen großen Anteil an Wasser und Zucker.",
+"details": {
+"packaging": "Auf Top-Karton von 7-8 kg / Plastikbox von 9-10 kg.",
+"season": "Saison: Januar"
+}
+}
+   
 }
 

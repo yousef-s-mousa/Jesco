@@ -126,5 +126,175 @@
   "gallery": {
     "title": "Galería",
     "videos": "Nuestros videos"
-  }
+  },
+"novel-orange":{
+"p1": "La naranja Navel se originó a partir de un solo árbol que se plantó en Brasil en 1820. Este árbol tuvo una mutación, lo que provocó que se produjeran dos naranjas en una sola fruta. La segunda naranja, que se desarrolla en la parte inferior de la fruta, opuesta al tallo, es de donde la naranja Navel recibe su nombre, ya que esa segunda naranja se parece vagamente a un ombligo humano.",
+"p2": "La naranja secundaria es de gran importancia, porque hace que la naranja no tenga semillas. Dado que estas frutas carecen de semillas, los agricultores tuvieron que utilizar técnicas como el corte y el injerto para seguir produciendo el árbol. Como resultado, ¡cada naranja navel puede considerarse un producto de ese único árbol plantado hace más de 200 años! La naranja Navel se destaca como la naranja definitiva para comer directamente. Ni demasiado ácida ni dulce, la naranja Navel produce un jugo de naranja excepcional y se puede segmentar y compartir fácilmente con amigos, es decir, si está dispuesto a compartir.",
+"s1": "SABOR Y MADUREZ DE LAS NARANJAS NAVEL",
+"p3": "Las naranjas Navel no tienen semillas, tienen una piel fácil de pelar y una pulpa deliciosamente jugosa que rebosa de sabor cítrico, lo que la convierte en una fruta imprescindible para cualquier amante de las frutas. Las naranjas son una de esas frutas que están en su mejor momento cuando maduran en el árbol. The Fruit Company obtiene todos sus cítricos madurados en el árbol, para que le lleguen en su punto máximo. No dude en pelar y disfrutar esa naranja tan pronto como le llegue.",
+"details":{
+"p1": "Descripción: tamaño grande y mediano, sin semillas y redondeada.",
+"p2": "Calidad: Grado A",
+"p3": "Tamaños: 36, 40, 48, 56, 64, 72, 80, 88, 100 y 113 por caja Master de 15 KG",
+"p4": "Temporada: Producto coloreado: de octubre a noviembre: color natural de diciembre a marzo."
+}
+},
+"beans": {
+"description": "Las judías verdes existen en dos grupos principales que son: judías de mata y judías de palo. La judía de mata se encuentra entre las plantas cortas que crecen a una longitud de dos pies sin necesidad de ningún soporte. Estos arbustos maduran en general y producen todos sus frutos en un tiempo relativamente corto, luego detienen su producción. Los agricultores pueden plantar más de una cosecha de la judía de mata en la misma temporada.",
+"details": {
+"season": "Temporada: De octubre a enero.",
+"packaging": "Embalaje: Caja que contiene 5 bolsas donde el peso de cada bolsa es de 500 g. / Caja de plástico de 5 kg."
+}
+},
+"garlic": {
+"description": "El ajo es una planta herbácea que se planta en todas las regiones del mundo. El ajo se encuentra entre las plantas que fueron bien conocidas a lo largo de las épocas. El ajo era conocido en muchas de las civilizaciones antiguas por sus características profilácticas y terapéuticas, donde se usaba en la medicina antigua árabe, india y china para tratar muchas enfermedades.",
+"details": {
+"season": "Temporada: El ajo verde en febrero / Seco de abril a septiembre.",
+"packaging": "Embalaje: Caja de plástico de 10 kg."
+}
+},
+"golden_onion": {
+"description": "La cebolla dorada contiene alta energía, agua, pocas calorías y una gran cantidad de vitaminas como: B1 y B6, y ácido fólico. La cebolla fortalece la circulación sanguínea y previene los coágulos de sangre.",
+"details": {
+"quality": "Calidad: Primera clase.",
+"measure": "Medida: 4-6 : 6-8 : 8-12.",
+"sizes": "Tamaños: Pequeño - Mediano - Grande",
+"season": "Temporada: De mayo a noviembre.",
+"packaging": "Embalaje de cebolla: 5 kg, 10 kg, 15 kg, 20 kg, 25 kg / Shikara de plástico."
+}
+},
+"grape_fruit": {
+"p1": "Los árboles de pomelo de hoja perenne suelen crecer hasta unos 5–6 metros (16–20 pies) de altura, aunque pueden alcanzar los 13–15 m (43–49 pies). Las hojas son de color verde oscuro brillante, largas (hasta 15 centímetros (5,9 pulgadas)) y delgadas. Produce flores blancas de cuatro pétalos de 5 cm (2 pulgadas).",
+"p2": "La fruta tiene la piel de color amarillo anaranjado y, en general, tiene forma de esferoide oblato; su diámetro varía de 10 a 15 cm (3,9 a 5,9 pulgadas). La pulpa está segmentada y es ácida, y su color varía según los cultivares, que incluyen pulpas blancas, rosadas y rojas de diversa dulzura.",
+"details": {
+"description": "Descripción: tamaño grande y mediano, sin semillas y redondeada.",
+"quality": "Calidad: Grado A",
+"sizes": "Tamaños: 36, 40, 48, 56, 64 por caja Master de 15 KG",
+"season": "Temporada: de octubre a noviembre"
+}
+},
+"grapes": {
+"description": "La uva es el tipo de fruta con cáscara lisa y que tiene un sabor delicioso. Las uvas aparecen en racimos que contienen de 20 a 60 semillas. Desde la antigüedad, los chinos y los indios comían uvas por su alto valor nutritivo. Las uvas tienen un grupo variado de colores como verde, blanco, rojo y negro.",
+"superyor": {
+"title": "Uvas Superyor",
+"description": "Semilla de forma ovalada cuyo color se encuentra entre el verde y el amarillo. El tamaño es de entre 17 mm y 25 mm."
+},
+"flame": {
+"title": "Uvas Flame",
+"description": "Tiene una semilla circular cuyo color es rojo con un sabor dulce y no tiene semillas. El tamaño varía de 16 mm a 22 mm."
+},
+"red_globe": {
+"title": "Uvas Red Globe",
+"description": "Tiene una semilla de gran tamaño con color rosa. Este tipo tiene semillas. Los tamaños varían entre 17 mm y 25 mm."
+},
+"kremson": {
+"title": "Uvas Kremson",
+"description": "Descripción: Las semillas son largas y tienen una cáscara gruesa. Este tipo de uva se encuentra entre las más populares por su alta calidad y por su capacidad para almacenar agua durante un período de tiempo.",
+"quality": "Calidad: primer grado.",
+"season": "Temporada: julio, agosto, septiembre",
+"packaging": "Embalaje de uvas: Caja de 4,5 kg, Caja de plástico de 5 kg."
+}
+},
+"lanylet_orange": {
+"description": "La naranja Lanylet es una cosecha de extensión de Abu Surra. Se distingue por su forma ovalada y sus grandes tamaños. Tiene un tacto suave y la proporción de agua y las fibras en ella es promedio. También se caracteriza por su solidez y por soportar viajes de largas distancias.",
+"details": {
+"package": "Paquete: 80/ 72/ 64/ 56/ 48/ 42/ 40/ 36/ 30: Caja abierta de 15 kg. 88/ 80/ 72/ 64/ 56/ 48/ 40/ 30 Caja cerrada de 15 kg.",
+"season": "Temporada: febrero, marzo y abril."
+}
+},
+"lemon": {
+"description": "El limonero es típicamente pequeño y la altura máxima que puede alcanzar es de casi seis metros. El limón es rico en vitamina C y tiene muchos beneficios, como ser desintoxicante, diurético, antiséptico para heridas y antihelmíntico intestinal y un alivio para el dolor reumático. Además, el limón en remojo es útil en el tratamiento del dolor abdominal, la boca, la falta de secreciones hepáticas, el ajuste de la presión arterial, los riñones, la hidratación del cuerpo y la prevención de la insolación. Entre los tipos más importantes de limón se encuentran los siguientes:",
+"types": {
+"egyptian": "Limón cítrico egipcio (lima): su tamaño es pequeño",
+"bruce": "Limón Bruce: Es verde y sin semillas. Sus tamaños son pequeño y mediano.",
+"dahlia": "Limón Dahlia: su tamaño es mediano.",
+"eureka_a": "Limón Dahlia (Eureka A): Sus tamaños van de alto a mediano",
+"eureka_b": "Limón Dahlia (Eureka B): Sus tamaños van de alto a mediano",
+"limonite": "Limón Dahlia (limonita): Sus tamaños son muy altos.",
+"capillary": "Limón capilar: No tiene semillas."
+},
+"packing_title": "El embalaje del limón se realiza de la siguiente manera:",
+"packing": {
+"boxes": "Se envasa en cajas de cartón o de plástico y sus tamaños son 56-64 - 72-80 - 88-100 - 113-125 - 135."
+}
+},
+"lettuce_kabouchy": {
+"description": "Esta es una clase de alimento de hoja donde la lechuga se encuentra entre las verduras de invierno que necesitan un clima frío, donde se planta en las casas que están protegidas y con aire acondicionado en la temporada de verano para que esté disponible durante todo el año debido a su importancia en la preparación de la ensaladera por su alto valor nutritivo, ya que contiene vitamina H. La lechuga se planta en plántulas en línea a un promedio de 12 a 1 línea.",
+"details": {
+"season": "Temporada: De septiembre a abril.",
+"packaging": "Embalaje: La caja contiene de seis a 12 frutas. La caja pesa 5 kg."
+}
+},
+"mango": {
+"description": "El árbol de mango crece en el clima árido, semiárido, y en la India, China, Yemen, Egipto, la Franja de Gaza, Sudán y en el sur del Reino de Arabia Saudita en el área de Gazán. El mango se considera una fuente importante de potasio, que es un elemento importante en la célula y que ayuda a controlar las pulsaciones del corazón y la presión arterial.",
+"details": {
+"season": "Temporada: De julio a noviembre.",
+"packaging": "Embalaje: Caja de 5 kg / Caja de plástico de 5 kg / Caja de plástico de 10 kg."
+}
+},
+"murcott": {
+"description": "El murcott es una fruta cítrica que tiene un color naranja y se asocia principalmente con la naranja (mandarina) porque ambas frutas forman citrus reticulata. En términos de clasificación, quizás, se llama así porque se considera un tipo o una variedad de citrus reticulata. El murcott es más pequeño que la naranja y fácil de pelar y dividir en gajos. En cuanto al sabor, se considera menos cítrico (ácido), pero es más fuerte y más dulce que el sabor de la naranja. El murcott se caracteriza por características como ser fuerte, ligeramente suave, de tamaño pesado y tener una cáscara granulada sin agujeros profundos. Tipos de Murcott: - El Murcott español tiene un color amarillo dorado con una textura suave. - El Murcott Kenney tiene un color naranja oscuro con una textura rugosa.",
+"details": {
+"description": "Descripción: tamaño grande y mediano, con semillas y redondeado.",
+"quality": "Calidad: Grado A",
+"sizes": "Tamaños: por caja Master de 8, 10 KG",
+"season": "Temporada: de febrero a marzo"
+}
+},
+"pomegranate": {
+"intro": "Los tipos más importantes de granadas son:",
+"types": {
+"m116": "M116: Su tamaño es de pequeño a mediano y el color es rojo por fuera.",
+"asyuti": "Granada Asyuti: Su tamaño es de pequeño a mediano y el color es rojo por dentro y por fuera.",
+"native": "Granada nativa: Su tamaño es de mediano a grande.",
+"wonderful": "Granada maravillosa: Su tamaño es de mediano a grande."
+},
+"description": "Embalaje: La granada se envasa en cajas abiertas (tapa abierta) que pesan 5 kg y cada caja contiene (de 6 a 14 frutas). Se envasa en envases de plástico que pesan 20 kg. El granado tiene hermosas flores blancas y rojas que se convierten en una deliciosa fruta con una piel de color carmesí o amarillo rojizo llamada Golnar. La cubierta de esta fruta contiene cientos de granos de agua de color rojo brillante o blanco. Cada grano incluye una semilla sólida o blanda según la calidad y variedad de la granada. La granada es un arbusto que alcanza una altura de 6 metros con ramas colgantes y espinas en los bordes. Sus ramas y hojas son de color rojizo. Sus flores tienen un color rojo claro con una forma hermosa. La fruta es esférica con una corona y su cáscara tiene una textura delgada.",
+"detailed_info": "La fruta contiene muchas semillas rojas o, a veces, cercanas al color blanco, pero la mayoría de las veces las semillas tienen el color rojo rubí. Las hojas caen en otoño, por lo que el granado no es de hoja perenne. Las flores del granado se llaman Glonar, que es una arabización de la palabra persa Kolnar que significa flores de granado. La granada se conoce en jeroglíficos como \"ramen\" y en lengua copta como \"Erman\". La granada contiene muchas vitaminas y sustancias que son importantes para las funciones del cuerpo. La fruta incluye lo siguiente: proteínas, vitaminas, minerales, fibra dietética, antioxidantes y 234 calorías en promedio. Además, al comer granada, el cuerpo humano se vuelve capaz de resistir una variedad de enfermedades, como el cáncer, la osteoporosis, el Alzheimer, la presión arterial, el colesterol, la diabetes y las enfermedades hepáticas.",
+"details": {
+"season": "Temporada: de agosto a octubre"
+}
+},
+"red_onion": {
+"description": "La cebolla es rica en agua y energía, con pocas calorías y rica en vitaminas B1 y B2, ácido fólico y ayuda a activar la circulación sanguínea, reducir la presión arterial y limitar los coágulos de sangre.",
+"details": {
+"description": "Descripción: El tamaño de este tipo de aceite varía entre pequeño y mediano. Se caracteriza por su ligero sabor azucarado y a menudo se come crudo. Añade color a las ensaladas o se fríe con los alimentos.",
+"quality": "Calidad: Primera clase.",
+"sizes": "Tamaños: Pequeño - Mediano - Grande",
+"season": "Temporada: De mayo a noviembre.",
+"packaging": "Embalaje: 10 Kg – 15 Kg – 20 Kg – 2 Kg / Shikara de plástico."
+}
+},
+"roman_pepper": {
+"description": "El pimiento romano o pimiento dulce se clasifica como aquellas plantas que viven durante un año o una temporada. El pimiento romano contiene muchas vitaminas y antioxidantes que son importantes para combatir varios tipos de cáncer. Cuanto más oscuro es el color del pimiento, mayor es la concentración de materiales antioxidantes. El pimiento romano se diferencia del pimiento picante en su sabor dulce. El pimiento picante tiene muchos tipos, como el pimiento verde, amarillo y rojo. A pesar de las variaciones en los elementos nutricionales en cada uno de los colores del pimiento romano, todos comparten una serie de importantes para la salud humana. El pimiento romano se utiliza en una serie de recetas de cocina donde se puede comer crudo cuando se sigue una de las recetas de adelgazamiento.",
+"details": {
+"season": "Temporada: De noviembre a febrero.",
+"packaging": "Embalaje: Caja de 5 kg de peso / Caja de plástico de 5 kg."
+}
+},
+"strawberries": {
+"description": "Las fresas se encuentran entre las frutas que cambian de color varias veces durante su vida. Para empezar, las frutas son verdes y luego cambian a blanco y luego cambian su color parcialmente a rosa y luego a color rojo. Esto se acompaña de un aumento en el tamaño de las frutas y un aumento en la tasa de humedad con un aumento en los materiales azucarados que forman el 70% - 80% de los materiales sólidos solubles.",
+"details": {
+"packaging": "Embalaje: Las frutas de fresa que se destinan a la exportación se envasan en una caja que contiene 10 envases de plástico de 250 g. / Una caja contiene 8 envases de plástico de 2,5 g.",
+"season": "Temporada: De noviembre a febrero."
+}
+},
+"valencia_orange": {
+"p1": "Es la naranja de verano, valorada por su alto contenido de jugo y su disponibilidad fuera de la temporada típica de cítricos. Las naranjas Valencia suelen tener la piel fina y algunas semillas. Se consideran una de las mejores naranjas para hacer jugo.",
+"p2": "Una naranja mediana tiene solo unas 60 calorías y proporciona el 116% del valor diario de vitamina C; el 13% de la fibra dietética; el 10% de folato; el 8% de tiamina; el 7% de potasio; el 6% de vitamina A; y el 5% de calcio.",
+"details": {
+"description": "Descripción: tamaños medianos y pequeños, sin semillas y redondeada.",
+"quality": "Calidad: Grado A",
+"sizes": "Tamaños: 40, 48, 56, 64, 72, 80, 88, 100, 113 y 125 por caja Master de 15 KG",
+"season": "Temporada: de febrero a junio: color natural de diciembre a marzo."
+}
+},
+"vermont": {
+"description": "Este es un tipo de mandarina que tiene una cáscara roja donde los gajos por dentro tienen un color oscuro. Contiene un gran porcentaje de agua y azúcar.",
+"details": {
+"packaging": "En caja superior de 7-8 kg / Caja de plástico de 9-10 kg.",
+"season": "Temporada: enero"
+}
+}
+
 }

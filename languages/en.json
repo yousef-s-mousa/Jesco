@@ -128,6 +128,175 @@
   "gallery": {
     "title": "Gallery",
     "videos": "Our Videos"
+  },
+"novel-orange":{
+"p1": "The Navel Orange originated from a single tree that was planted in Brazil in 1820. This tree had a mutation, causing two oranges to be produced within one single piece of fruit. The second orange, developing at the bottom of the fruit, opposite the stem, is where the Navel Orange gets its name, as that second orange vaguely resembles a human navel.",
+"p2": "The secondary orange is of vast importance, because it causes the orange to be seedless. Since these fruits lack seeds, farmers had to use techniques like cutting and grafting to continue producing the tree. As a result, every navel orange can be considered a product of that single tree planted over 200 years ago! The Navel Orange stands alone as the ultimate orange for eating out of hand. Neither overly tart, nor sweet, the Navel Orange produces outstanding orange juice, and can be easily segmented and shared with friends - that is, if you're willing to share.",
+"s1": "NAVEL ORANGES TASTE & RIPENESS",
+"p3": "Navel Oranges have a lack of seeds, easily-to-peel skin, and deliciously juicy flesh bursting with citrus flavor makes it a must have for any fruit lover. Oranges are one of those fruits that are at their best when they're ripened on the tree. The Fruit Company gets its entire citrus tree-ripened, to get it to you at its peak. Please feel free to peel and enjoy that orange as soon as it gets to you.",
+"details":{
+  "p1": "Description: large and medium size, seedless and rounded.",
+  "p2": "Quality: Grade A",
+  "p3": "Sizes: 36, 40, 48, 56, 64, 72, 80, 88, 100 and 113 per Master carton 15 KGs",
+  "p4": "Season: Colored product: October till November: Natural color December till March."
+}
+},
+"beans": {
+  "description": "The Green Beans exists in two main groups which are: Beans Shrub and Beans Stich. The Beans Shrub is among the short plants which grow at length of two feet without the need for any support. These shrubs ripen in general and produce all its fruits in a relatively short time then, it stops its production. The farmers can plant more than one harvest from the beans shrub in the same season.",
+  "details": {
+    "season": "Season: From October to January.",
+    "packaging": "Packaging: Carton containing 5 Bags where the weight of each Bag equals 500 gm. / Plastic Box weighs 5 Kg."
   }
+},
+"garlic": {
+  "description": "Garlic is a grassy plant where it is of the type of plants which are planted in all regions in the world. Garlic is among the plants which were well known among the eras. Garlic was known in many of old civilizations because it's prophylactic and therapeutically features where it was used in the ancient Arab, Indian & Chinese medicine for treating many diseases.",
+  "details": {
+    "season": "Season: The Green Garlic in February / Dry from April to September.",
+    "packaging": "Packaging: Plastic Box of 10 Kg."
+  }
+},
+"golden_onion": {
+  "description": "Golden onion contains high energy, water, few calories, and high amount of vitamins such as: B1 and B6, and folic acid. Onion strengthens blood circulation and prevents blood clots.",
+  "details": {
+    "quality": "Quality: First Class.",
+    "measure": "Measure: 4-6 : 6-8 : 8 – 12.",
+    "sizes": "Sizes: Small - Medium - Large",
+    "season": "Season: From May to November.",
+    "packaging": "Onion Packing: 5 Kg, 10 Kg, 15 Kg, 20 Kg, 25 Kg / Plastic Shikara."
+  }
+},
+"grape_fruit": {
+  "p1": "The evergreen grapefruit trees usually grow to around 5–6 meters (16–20 ft) tall, although they may reach 13–15 m (43–49 ft). The leaves are glossy dark green, long (up to 15 centimeters (5.9 in)), and thin. It produces 5 cm (2 in) white four-petaled flowers.",
+  "p2": "The fruit is yellow-orange skinned and generally, an oblate spheroid in shape; it ranges in diameter from 10–15 cm (3.9–5.9 in). The flesh is segmented and acidic, varying in color depending on the cultivars, which include white, pink, and red pulps of varying sweetness",
+  "details": {
+    "description": "Description: : large and medium size, seedless and rounded.",
+    "quality": "Quality: Grade A",
+    "sizes": "Sizes:36, 40, 48, 56, 64 per Master carton 15 KGs",
+    "season": "Season: October till November"
+  }
+},
+"grapes": {
+  "description": "The Grapes is the type of fruit with smooth shell and which has delicious taste. The Grapes appears in bunches which each contains 20 – 60 seeds. Since old ages, the Chinese and Indians ate Grapes because it's high food value. Grapes have a various group of colors such as green, white, red and black.",
+  "superyor": {
+    "title": "Superyor grapes",
+    "description": "Oval shaped seed whose color between green to yellow. Size is between 17 mm. to 25 mm."
+  },
+  "flame": {
+    "title": "Flame grapes",
+    "description": "It has a circular seed whose color is red with sweet taste and has no seeds. Size ranges from 16 mm. to 22 mm."
+  },
+  "red_globe": {
+    "title": "Red Globe Grapes",
+    "description": "Has a large size seed with rose color. This type has seeds. Sizes range between 17mm. to 25 mm."
+  },
+  "kremson": {
+    "title": "Kremson Grapes",
+    "description": "Description: The seeds are long and has thick shield. This type of grapes is among the most popular because of its high quality and because its ability in storing water for a period of time.",
+    "quality": "Quality: first degree.",
+    "season": "Season: July, August, September",
+    "packaging": "Grapes packaging: Carton of 4.5 Kg, Plastic Box of 5 Kg."
+  }
+},
+"lanylet_orange": {
+  "description": "The LanyLet Orange is an extension harvest to Abu Surra. It is distinct of its oval shape and large sizes. It has a soft-touch and the water ratio and the fibers in in it is average. It is also characterized with solidity and bearing travelling for long distances.",
+  "details": {
+    "package": "Package: 80/ 72/ 64/ 56/ 48/ 42/ 40/ 36/ 30: Open Carton of 15 Kg. 88/ 80/ 72/ 64/ 56/ 48/ 40/ 30 Closed Carton of 15 Kg.",
+    "season": "Season: February, March & April."
+  }
+},
+"lemon": {
+  "description": "Lemon Tree is typically small and the highest length it can reach is almost six meters. Lemon is rich in vitamin C and has many benefits such as being detoxifying, diuretic, antiseptic for wounds and intestinal anthelmintic and a relief for rheumatic pain. Moreover, soaked lemon is useful in the treatment of abdominal pain, mouth, lack of liver secretions, adjusting of blood pressure, kidneys, moisturizing the body and preventing sunstroke. Among the most important types of lemon are the following:",
+  "types": {
+    "egyptian": "Egyptian citrus lemon (Lime): its size is small",
+    "bruce": "Bruce lemon: It is green and seedless. Its sizes are small and medium.",
+    "dahlia": "Dahlia lemon: its size is medium.",
+    "eureka_a": "Dahlia lemon (Eureka A): Its sizes graduate from high to medium",
+    "eureka_b": "Dahlia lemon (Eureka B): Its sizes graduate from high to medium",
+    "limonite": "Dahlia lemon (limonite): Its sizes are very high.",
+    "capillary": "Capillary lemon: It is seedless."
+  },
+  "packing_title": "Packing lemon is done as follows:",
+  "packing": {
+    "boxes": "It is packed in cartons or Plastic boxes and its sizes are 56-64 - 72-80 - 88-100 - 113-125 – 135."
+  }
+},
+"lettuce_kabouchy": {
+  "description": "This is one class of the leafy food where the Lettuce is among the wintry vegetables which need cold climate where it is planted in the houses which are protected and air-conditioned in the summer season so that it becomes available through the year because of its importance in preparing the salad bowl because of its high food value as it contains Vitamin H. Lettuce is planted in seedlings on line at an average from 12 to 1 line.",
+  "details": {
+    "season": "Season: From September to April.",
+    "packaging": "Packaging: Carton contains from six to 12 fruits. The Carton weighs 5 Kg."
+  }
+},
+"mango": {
+  "description": "The Mango tree grows in the arid, semi-arid climate, and in India, China, Yemen, Egypt, Gaza Strip, Sudan and in south Saudi Kingdom in the area of Gazan. Mango is considered as an important source Potassium which is an important element in the cell and which helps in controlling the heart pulses and blood pressure.",
+  "details": {
+    "season": "Season: From July to November.",
+    "packaging": "Packaging: Carton of 5 Kg / Plastic Box of 5 KG / Plastic Box of 10 Kg."
+  }
+},
+"murcott": {
+  "description": "Murcott is a citrus fruit that has an orange color and is associated mainly with orange (mandarin orange) because both fruits form citrus reticulata. In terms of classification, perhaps, it is named so because it is considered a kind or a variety of citrus reticulata. Murcott is smaller than the orange and easy to peel and divide into cloves. As for taste, it is considered less citrus (sour), but it is stronger and sweeter than orange taste. Murcott is characterized by features such as being strong, slightly soft, heavy in size, and has a gravelling peel without deep holes. Types of Murcott: - Spanish Murcott has a golden yellow color with a smooth texture. - Kenney Murcott has a dark orange color with a rough texture.",
+  "details": {
+    "description": "Description: large and medium size, seeds and rounded.",
+    "quality": "Quality: Grade A",
+    "sizes": "Sizes: per Master carton 8, 10 KGs",
+    "season": "Season: February till March"
+  }
+},
+"pomegranate": {
+  "intro": "The most important types of pomegranates are:",
+  "types": {
+    "m116": "M116: Its size is small to medium and color is red from outside.",
+    "asyuti": "Asyuti Pomegranate: Its size is small to medium and color is red from inside and outside.",
+    "native": "Native Pomegranate: Its size is medium to large.",
+    "wonderful": "Wonderful Pomegranate: Its size is medium to large."
+  },
+  "description": "Packing: Pomegranate is packed in open cartons (open top) weighing 5 kg and each carton contains (6 to 14 fruits). It is packed in plastic containers weighing 20 kg. Pomegranate tree has beautiful white and red flowers that turn into a delicious fruit having a crimson or yellow reddish color skin called Golnar. The cover of this fruit contains hundreds of bright red or white color water grains. Every grain includes a solid or soft seed according to the quality and variety of pomegranate. Pomegranate is a shrub that reaches a height of 6 meters with pendulous branches and thorns in the edges. Its branches and leaves are close to the red color. Its flowers have a light red color with a beautiful shape. The fruit is spherical bearing a crown, and its rind has a skinny texture.",
+  "detailed_info": "The fruit contains many red seeds or sometimes close to the white color but mostly the seeds have the ruby red color. The leaves fall in autumn and so the pomegranate tree is not evergreen. Pomegranate blossoms are called Glonar, which is an Arabization to the Persian word Kolnar that means pomegranate blossoms. Pomegranate is known in Hieroglyphics as\" ramen \"and in Coptic language as \"Erman\". Pomegranate contains a lot of vitamins and substances that are important for the functions of the body. The fruit includes the following: protein, vitamins, minerals, dietary fiber, antioxidant and 234 calories on average. Moreover, by eating pomegranate, the human body becomes capable of resisting a variety of diseases including cancer, osteoporosis, Alzheimer, blood pressure, cholesterol, diabetes and liver diseases.",
+  "details": {
+    "season": "Season: August till October"
+  }
+},
+"red_onion": {
+  "description": "The Onion is rich in water and energy with its low calories and rich in Vitamins B1 & B2, Folic Acid and helps in activating the blood cycle and reducing the blood pressure and limiting the blood clots.",
+  "details": {
+    "description": "Description: The size of this type of Oil ranges between the small and medium. It is characterized of its light sugary flavor and it is often eaten raw. It adds color to salads or fried with foods.",
+    "quality": "Quality: First Class.",
+    "sizes": "Sizes: Small - Medium - Large",
+    "season": "Season: From May to November.",
+    "packaging": "Packaging: 10 Kg – 15 Kg – 20 Kg – 2 Kg / Plastic Shikara."
+  }
+},
+"roman_pepper": {
+  "description": "The Roman Pepper or sweet pepper is classified as those plants which live for one year or one season. The Roman Pepper contains many Vitamins and anti-oxidants which are important for fighting various types of cancers. The darker the color of the pepper, the higher the concentration of the anti-oxidants materials. The roman pepper differs from the hot pepper in its sweet taste. The hot pepper has many types such as the green, yellow, red pepper. Despite the variations in the nutritional elements in each of the roman pepper colors but,they all share a number of important for the human health. The roman pepper is used in a number of cooking recipes where it can be eaten un-cooked when following one of the slimming recipes.",
+  "details": {
+    "season": "Season: From November to February.",
+    "packaging": "Packaging: Carton of 5 Kg weight / Plastic Box of 5 Kg."
+  }
+},
+"strawberries": {
+  "description": "Strawberries are among the fruits which change its colors several times during its life time. To start with the fruits are green and then change to white and then change its color partially into rose and then to red color. This is accompanied with an increase in fruits size and an increase in the rate of humidity with an increase in the sugary materials which form 70% - 80% of the soluble solid materials.",
+  "details": {
+    "packaging": "Packaging: The strawberries fruits which are allocated for exporting are packaged in a carton which each contains 10 pants of plastic of 250 gm. / A Carton contains 8 Plastic Pants of 2.5 gm.",
+    "season": "Season: From November to February."
+  }
+},
+"valencia_orange": {
+  "p1": "It is summer Orange, Valued for their high juice content and availability outside of the typical citrus season, Valencia oranges are usually thin-skinned and have a few seeds. They are considered one of the best oranges for juicing.",
+  "p2": "A medium orange has only about 60 calories and provides 116% of the daily value of vitamin C; 13% of dietary fiber; 10% folate; 8% thiamin; 7% potassium; 6% vitamin A; and 5% calcium..",
+  "details": {
+    "description": "Description: medium and small sizes, seedless and rounded.",
+    "quality": "Quality: Grade A",
+    "sizes": "Sizes: 40, 48, 56, 64, 72, 80, 88, 100, 113 and 125 per Master carton 15 KGs",
+    "season": "Season: February till June.: Natural color December till March."
+  }
+},
+"vermont": {
+  "description": "This is one type of Tangerine which has a red shell where the gloves from inside have dark color. It contains a large percentage of water and sugar.",
+  "details": {
+    "packaging": "On Top Carton of 7-8 Kg / Plastic Box of 9-10 Kg.",
+    "season": "Season: January"
+  }
+}
 
 }
