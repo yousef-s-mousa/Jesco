@@ -1,58 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <title>Jesco</title> 
-  <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="...">
-  <meta name="keywords" content="...">
-  <meta name="author" content="...">
-  <link rel="stylesheet" href="stylesheets/styles.css">
-  <link rel="stylesheet" href="stylesheets/css.css">
-  <link rel="stylesheet" href="stylesheets/flaticon.css">
-  <link rel="stylesheet" href="stylesheets/font-awesome.css">
-  <link rel="shortcut icon" href="images/favicon.html">
-  
-</head>
-<body class="home-page">
-
-  <!-- LOADER
+  <head>
+    <title>Jesco</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="..." />
+    <meta name="keywords" content="..." />
+    <meta name="author" content="..." />
+    <link rel="stylesheet" href="stylesheets/styles.css" />
+    <link rel="stylesheet" href="stylesheets/css.css" />
+    <link rel="stylesheet" href="stylesheets/flaticon.css" />
+    <link rel="stylesheet" href="stylesheets/font-awesome.css" />
+    <link rel="shortcut icon" href="images/favicon.html" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body class="home-page">
+    <!-- LOADER
   ============================================== -->
-  <div id="preloader">
-    <div class="aligner">
-      <div class="spinner">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-        <div class="bar4"></div>
-        <div class="bar5"></div>
+    <div id="preloader">
+      <div class="aligner">
+        <div class="spinner">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <div class="bar4"></div>
+          <div class="bar5"></div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- NAVBAR
+    <!-- NAVBAR
   ============================================== -->
-  <nav class="navbar navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#onepage-nav">
-          <i class="fa fa-bars"></i>
-        </button>
-        <a class="navbar-brand" href="index.html" title="Jesco">
-          <img class="logo" alt="Jesco" src="images/logo.png">
-        </a>
-      </div>
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#onepage-nav"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="index.html" title="Jesco">
+            <img class="logo" alt="Jesco" src="images/logo.png" />
+          </a>
+        </div>
         <div class="collapse navbar-collapse" id="onepage-nav">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html" data-translate="nav.home">HOME</a></li>
-            <li><a href="aboutus.html" data-translate="nav.about">ABOUT US</a></li>
-            <li><a href="seasons.html" data-translate="nav.seasons">SEASONS</a></li>
-            <li><a href="prossesing.html" data-translate="nav.processing">PROCESSING</a></li>
-            <li><a href="gallery.html" data-translate="nav.gallery">GALLERY</a></li>
-            <li><a href="product.html" data-translate="nav.products">PRODUCTS</a></li>
-            <li><a href="contact.html" data-translate="nav.contact">CONTACT US</a></li>
+            <li>
+              <a href="aboutus.html" data-translate="nav.about">ABOUT US</a>
+            </li>
+            <li>
+              <a href="seasons.html" data-translate="nav.seasons">SEASONS</a>
+            </li>
+            <li>
+              <a href="prossesing.html" data-translate="nav.processing"
+                >PROCESSING</a
+              >
+            </li>
+            <li>
+              <a href="gallery.html" data-translate="nav.gallery">GALLERY</a>
+            </li>
+            <li>
+              <a href="product.html" data-translate="nav.products">PRODUCTS</a>
+            </li>
+            <li>
+              <a href="contact.html" data-translate="nav.contact">CONTACT US</a>
+            </li>
             <li class="language-switcher">
               <select id="languageSelect" onchange="changeLanguage()">
                 <option value="en" data-flag="🇺🇸">English</option>
@@ -62,64 +82,153 @@
               </select>
             </li>
           </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- NAVBAR
+    </nav>
+    <!-- NAVBAR
   ============================================== -->
-    
+
     <div class="content" role="main">
-            <div class="section bg-parallax" data-parallax="scroll" data-image-src="images/backgrounds/parallax_bg_01.jpg" id="about">
-      <div class="container">
-          <h1 style="color:white;" class="section-title"data-translate="AboutPage.title">Our Features</h1>
-        <div class="row">
-          <div class="col-xs-4 counter-item">
+      <div
+        class="section bg-parallax"
+        data-parallax="scroll"
+        data-image-src="images/backgrounds/parallax_bg_01.jpg"
+        id="about"
+      >
+        <div class="container">
+          <h1
+            style="color: white"
+            class="section-title"
+            data-translate="AboutPage.title"
+          >
+            Our Features
+          </h1>
+          <div class="row">
+            <div class="col-xs-4 counter-item">
               <img
                 src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU1IDU1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1NSA1NTsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiPgo8Zz4KCTxjaXJjbGUgY3g9IjQ3IiBjeT0iNDcuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iNDUiIGN5PSI0NC41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0MyIgY3k9IjQxLjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjQ3IiBjeT0iNDEuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iNDEiIGN5PSIzOC41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0NSIgY3k9IjM4LjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjM5IiBjeT0iMzUuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iNDMiIGN5PSIzNS41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0OSIgY3k9IjUwLjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjQ1IiBjeT0iNTAuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iNDMiIGN5PSI0Ny41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0MSIgY3k9IjQ0LjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjM5IiBjeT0iNDEuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iMzciIGN5PSIzOC41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSIzOSIgY3k9IjQ3LjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjM3IiBjeT0iNDQuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iMzUiIGN5PSI0MS41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0MSIgY3k9IjUwLjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjM3IiBjeT0iNTAuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iMzUiIGN5PSI0Ny41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSIzMyIgY3k9IjQ0LjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjMxIiBjeT0iNDcuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iMzMiIGN5PSI1MC41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSIyOSIgY3k9IjUwLjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxwYXRoIGQ9Ik01My4zNzQsNDUuNjg2Yy0xLjAxNS0xLjI1Ni0yLjQzNi0zLjU2OS0zLjgwOS01LjgwN2MtMS40MzktMi4zNDYtMi44LTQuNTYyLTMuODQ3LTUuODU1ICAgYy0xLjYzLTIuMDExLTMuNjMxLTMuMjM5LTUuNzE5LTMuNDc4VjEuNWMwLTAuNTUzLTAuNDQ4LTEtMS0xSDguMDA2Yy0wLjAwNSwwLTAuMDEsMC4wMDMtMC4wMTUsMC4wMDNTNy45ODEsMC41LDcuOTc2LDAuNUgxICAgYy0wLjU1MiwwLTEsMC40NDctMSwxdjQ2YzAsMC4zOTksMC4yMzgsMC43NjEsMC42MDUsMC45MTlsNi45NzYsM0M3LjcwOCw1MS40NzMsNy44NDIsNTEuNSw3Ljk3Niw1MS41ICAgYzAuMDA2LDAsMC4wMTItMC4wMDIsMC4wMTgtMC4wMDJjMC4wMDUsMCwwLjAwOCwwLjAwMiwwLjAxMywwLjAwMkgyMy40N2MwLjA1OCwwLjI2LDAuMTM2LDAuNTE0LDAuMjU3LDAuNzUyICAgYzAuNTIzLDEuMDI1LDEuODYxLDIuMjQ4LDUuMjYxLDIuMjQ4aDE4LjE2YzMuNzc0LDAsNi40OTgtMS4xNjksNy40NzEtMy4yMDdDNTUuNDA2LDQ5LjY0NCw1NC45NjQsNDcuNjUzLDUzLjM3NCw0NS42ODZ6ICAgIE02Ljk3Niw0OC45ODFMMiw0Ni44NDJWMi41aDQuOTc2VjQ4Ljk4MXogTTkuMDA2LDIuNUgzOFYzMC42Yy0wLjI2OCwwLjA0Ni0wLjUzMywwLjEwOS0wLjc5NiwwLjE4NyAgIGMtMC4wNzEsMC4wMjEtMC4xNDEsMC4wNTEtMC4yMTEsMC4wNzRjLTAuMjAzLDAuMDY3LTAuNDA2LDAuMTM4LTAuNjA1LDAuMjI0Yy0wLjEsMC4wNDMtMC4xOTcsMC4wOTQtMC4yOTUsMC4xNDEgICBjLTAuMTY4LDAuMDgxLTAuMzM1LDAuMTY0LTAuNDk5LDAuMjU4Yy0wLjEwNCwwLjA1OS0wLjIwNiwwLjEyNC0wLjMwOCwwLjE4OGMtMC4xNTYsMC4wOTgtMC4zMDksMC4yMDEtMC40NjEsMC4zMTEgICBjLTAuMTAxLDAuMDczLTAuMjAyLDAuMTQ4LTAuMzAxLDAuMjI3Yy0wLjE1MSwwLjExOS0wLjI5OCwwLjI0NS0wLjQ0NCwwLjM3NWMtMC4wOTMsMC4wODMtMC4xODcsMC4xNjQtMC4yNzgsMC4yNTIgICBjLTAuMTU2LDAuMTUtMC4zMDYsMC4zMS0wLjQ1NiwwLjQ3M2MtMC4wNzUsMC4wODItMC4xNTIsMC4xNTgtMC4yMjUsMC4yNDNjLTAuMjE5LDAuMjU0LTAuNDMzLDAuNTItMC42MzcsMC44MDMgICBjLTAuODk4LDEuMjQ0LTEuOTk1LDMuMTI5LTMuMTY5LDUuMmMtMC4yNDEsMC40MjUtMC40ODQsMC44NTQtMC43MzEsMS4yOTJjLTAuNDUyLDAuODAxLTAuOTA4LDEuNjA3LTEuMzU0LDIuMzg0ICAgYy0wLjkyMiwxLjYwNC0xLjgwMywzLjA3Ni0yLjUwOSw0LjA1Yy0wLjAxMywwLjAxOC0wLjAyMiwwLjAzNS0wLjAzNSwwLjA1M2MtMC4xNDEsMC4xOTctMC4yNjksMC4zOTItMC4zODgsMC41ODUgICBjLTAuMDM1LDAuMDU4LTAuMDY2LDAuMTE2LTAuMDk5LDAuMTc0Yy0wLjA5MSwwLjE1OC0wLjE3NiwwLjMxNS0wLjI1MiwwLjQ3MWMtMC4wMjksMC4wNTktMC4wNTUsMC4xMTgtMC4wODIsMC4xNzcgICBjLTAuMDcsMC4xNTUtMC4xMzIsMC4zMDktMC4xODcsMC40NjFjLTAuMDIsMC4wNTUtMC4wNDEsMC4xMTEtMC4wNTksMC4xNjZjLTAuMDE0LDAuMDQzLTAuMDMzLDAuMDg4LTAuMDQ2LDAuMTMxSDkuMDA2VjIuNXogICAgTTI4Ljk4OCw1Mi41Yy0xLjgzNiwwLTMuMTA0LTAuNDIyLTMuNDc5LTEuMTU2YzAtMC4wMDEsMC0wLjAwMiwwLTAuMDAyQzI1Ljc5Nyw1MS4xNjYsMjYsNTAuODYzLDI2LDUwLjUgICBjMC0wLjMxNS0wLjE1NS0wLjU4NS0wLjM4NC0wLjc2OGMwLjAxNi0wLjAzOCwwLjAyNS0wLjA3NCwwLjA0Mi0wLjExM2MwLjAxMi0wLjAyOCwwLjAyNy0wLjA1NywwLjA0LTAuMDg2ICAgYzAuMDY0LTAuMTM5LDAuMTM5LTAuMjgyLDAuMjIzLTAuNDI3YzAuMDIyLTAuMDM4LDAuMDQyLTAuMDc2LDAuMDY2LTAuMTE0YzAuMTA1LTAuMTc1LDAuMjIxLTAuMzUzLDAuMzUyLTAuNTM1ICAgYzAuMDMzLTAuMDQ2LDAuMDY5LTAuMTAxLDAuMTAzLTAuMTQ4QzI2LjYwNCw0OC40MTksMjYuNzg5LDQ4LjUsMjcsNDguNWMwLjU1MiwwLDEtMC40NDgsMS0xYzAtMC4zNTgtMC4xOTktMC42NTgtMC40ODItMC44MzUgICBjMC4yNzQtMC40NDQsMC41NTctMC45MTUsMC44NDgtMS40MDlDMjguNTM5LDQ1LjQwMiwyOC43NTUsNDUuNSwyOSw0NS41YzAuNTUyLDAsMS0wLjQ0OCwxLTFjMC0wLjQzMi0wLjI3Ny0wLjc5MS0wLjY2LTAuOTMxICAgYzAuMDgtMC4xNDEsMC4xNjEtMC4yODIsMC4yNDEtMC40MjRjMC4yMDUtMC4zNjEsMC40MDktMC43MjIsMC42MTMtMS4wODNDMzAuMzc1LDQyLjMyLDMwLjY2MSw0Mi41LDMxLDQyLjVjMC41NTIsMCwxLTAuNDQ4LDEtMSAgIGMwLTAuNTI4LTAuNDEyLTAuOTQ4LTAuOTMtMC45ODZjMC4zMzQtMC41ODksMC42NjUtMS4xNjcsMC45ODktMS43MjNDMzIuMTg1LDM5LjE5OCwzMi41NTEsMzkuNSwzMywzOS41YzAuNTUyLDAsMS0wLjQ0OCwxLTEgICBzLTAuNDQ4LTEtMS0xYy0wLjA3MSwwLTAuMTM0LDAuMDI2LTAuMjAxLDAuMDQxYzAuNDQ1LTAuNzM1LDAuODYtMS4zODMsMS4yMjktMS45MDRDMzQuMDk3LDM2LjEyMSwzNC40OTYsMzYuNSwzNSwzNi41ICAgYzAuNTUyLDAsMS0wLjQ0OCwxLTFzLTAuNDQ4LTEtMS0xYy0wLjAxMywwLTAuMDI0LDAuMDA3LTAuMDM3LDAuMDA3YzAuMjY4LTAuMjc3LDAuNTQxLTAuNTM4LDAuODI3LTAuNzYgICBjMC4xODQtMC4xNDMsMC4zNzEtMC4yNzEsMC41NjEtMC4zOWMwLjAxOC0wLjAxMSwwLjAzNS0wLjAyNiwwLjA1My0wLjAzN2MwLjgzNC0wLjUxMiwxLjcyMi0wLjc5MywyLjYyNC0wLjgxOCAgIGMwLjAwMiwwLDAuMDAzLTAuMDAxLDAuMDA0LTAuMDAxYzAuMDQ0LTAuMDAxLDAuMDg4LTAuMDAyLDAuMTMyLTAuMDAyYzEuNzcxLDAsMy41NDIsMC45ODQsNSwyLjc4NCAgIGMwLjk2NiwxLjE5MSwyLjM1NCwzLjQ1NCwzLjY5Nyw1LjY0MmMwLjU3OSwwLjk0NCwxLjE2NSwxLjg5NiwxLjczMiwyLjc5QzQ5LjQyNSw0My41ODksNDkuMjI3LDQzLjUsNDksNDMuNWMtMC41NTIsMC0xLDAuNDQ4LTEsMSAgIHMwLjQ0OCwxLDEsMXMxLTAuNDQ4LDEtMWMwLTAuMDc2LTAuMDI3LTAuMTQyLTAuMDQzLTAuMjEzYzAuNjI4LDAuOTczLDEuMjE5LDEuODM3LDEuNzQxLDIuNUM1MS41MTcsNDYuNjEsNTEuMjcyLDQ2LjUsNTEsNDYuNSAgIGMtMC41NTIsMC0xLDAuNDQ4LTEsMXMwLjQ0OCwxLDEsMXMxLTAuNDQ4LDEtMWMwLTAuMjU2LTAuMTAzLTAuNDgzLTAuMjYxLTAuNjZjMC4wMjYsMC4wMzMsMC4wNTUsMC4wNzMsMC4wODEsMC4xMDQgICBjMC43NDgsMC45MjUsMS4xMzgsMS44MDIsMS4xNjcsMi41NTlDNTIuNDQxLDQ5LjUxMSw1Miw0OS45NTMsNTIsNTAuNWMwLDAuMjQ4LDAuMSwwLjQ2NywwLjI0OSwwLjY0MiAgIEM1MS4yOTUsNTIsNDkuNDg4LDUyLjUsNDcuMTQ4LDUyLjVIMjguOTg4eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTIxLDI1LjcyN2MwLjU1MiwwLDEtMC40NDcsMS0xdi0zLjY1OGMwLTAuMTQ5LTAuMDEyLTAuMjk2LTAuMDIyLTAuNDQybDAuMzA4LDAuMzA4YzAuMTk1LDAuMTk1LDAuNDUxLDAuMjkzLDAuNzA3LDAuMjkzICAgczAuNTEyLTAuMDk4LDAuNzA3LTAuMjkzbDAuMzI0LTAuMzI0QzI0LjAxMiwyMC43NjMsMjQsMjAuOTE0LDI0LDIxLjA2OXYzLjY1OGMwLDAuNTUzLDAuNDQ4LDEsMSwxaDMuNjU4ICAgYzMuNDk3LDAsNi4zNDItMi44NDUsNi4zNDItNi4zNDF2LTMuNjU5YzAtMC41NTMtMC40NDgtMS0xLTFoLTMuNjU4Yy0wLjgyOCwwLTEuNjE3LDAuMTY0LTIuMzQzLDAuNDU0ICAgYzAuNDI4LTIuMDI5LTAuMTQtNC4yMjktMS43MTMtNS44MDJsLTIuNTg3LTIuNTg3Yy0wLjM5MS0wLjM5MS0xLjAyMy0wLjM5MS0xLjQxNCwwTDE5LjY5OCw5LjM4ICAgYy0xLjU3MSwxLjU3MS0yLjE0LDMuNzY4LTEuNzE0LDUuNzk1Yy0wLjcyMS0wLjI4Ni0xLjUwNC0wLjQ0OC0yLjMyNi0wLjQ0OEgxMmMtMC41NTIsMC0xLDAuNDQ3LTEsMXYzLjY1OSAgIGMwLDMuNDk2LDIuODQ1LDYuMzQxLDYuMzQyLDYuMzQxSDIxeiBNMzMsMTYuNzI3djIuNjU5YzAsMi4zOTQtMS45NDgsNC4zNDEtNC4zNDIsNC4zNDFIMjZ2LTIuNjU4ICAgYzAtMi4zOTUsMS45NDgtNC4zNDIsNC4zNDItNC4zNDJIMzN6IE0yMS4xMTIsMTAuNzk0bDEuODgtMS44OGwxLjg4LDEuODhjMS42OTIsMS42OTIsMS42OTIsNC40NDcsMCw2LjE0bC0xLjg4LDEuODhsLTEuODgtMS44OCAgIEMxOS40MiwxNS4yNDEsMTkuNDIsMTIuNDg2LDIxLjExMiwxMC43OTR6IE0xMywxOS4zODd2LTIuNjU5aDIuNjU4YzIuMzk0LDAsNC4zNDIsMS45NDcsNC4zNDIsNC4zNDJ2Mi42NThoLTIuNjU4ICAgQzE0Ljk0OCwyMy43MjcsMTMsMjEuNzgsMTMsMTkuMzg3eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTMyLDMyLjVjMC0wLjU1My0wLjQ0OC0xLTEtMUgxNmMtMC41NTIsMC0xLDAuNDQ3LTEsMXMwLjQ0OCwxLDEsMWgxNUMzMS41NTIsMzMuNSwzMiwzMy4wNTMsMzIsMzIuNXoiIGZpbGw9IiNGRkZGRkYiLz4KCTxwYXRoIGQ9Ik0xOSwyOC41Yy0wLjU1MiwwLTEsMC40NDctMSwxczAuNDQ4LDEsMSwxaDEwYzAuNTUyLDAsMS0wLjQ0NywxLTFzLTAuNDQ4LTEtMS0xSDE5eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTMwLDM1LjVjMC0wLjU1My0wLjQ0OC0xLTEtMUgxOWMtMC41NTIsMC0xLDAuNDQ3LTEsMXMwLjQ0OCwxLDEsMWgxMEMyOS41NTIsMzYuNSwzMCwzNi4wNTMsMzAsMzUuNXoiIGZpbGw9IiNGRkZGRkYiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K"
               />
-            <p class="counter-value"data-translate="features.natural.title">100% Natural</p>
-            <p class="counter-desc"data-translate="features.natural.description">Our products are 100% natural, grown with care, and harvested at the peak of freshness. We take pride in offering fruits that are free from artificial additives, preservatives, or chemicals. Our commitment to quality ensures that every fruit we export is a pure, natural delight, perfect for consumers around the world who value taste, health, and sustainability.</p>
+              <p class="counter-value" data-translate="features.natural.title">
+                100% Natural
+              </p>
+              <p
+                class="counter-desc"
+                data-translate="features.natural.description"
+              >
+                Our products are 100% natural, grown with care, and harvested at
+                the peak of freshness. We take pride in offering fruits that are
+                free from artificial additives, preservatives, or chemicals. Our
+                commitment to quality ensures that every fruit we export is a
+                pure, natural delight, perfect for consumers around the world
+                who value taste, health, and sustainability.
+              </p>
+            </div>
+
+            <div class="col-xs-4 counter-item">
+              <img
+                src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUyIDUyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MiA1MjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiPgo8Zz4KCTxwYXRoIGQ9Ik0yOS45MjUsMGgtMXY0djIuOTU4QzIwLjM3MiwxLjk5MSw5LjQ3MywzLjMyOCwyLjM2OCwxMC40MzNMMS42NjEsMTEuMTRsMi44MjgsMi44MjhsMCwwbDI0LjQzNiwyNC40MzVWNDB2NGgxICAgYzEyLjEzMSwwLDIyLTkuODY5LDIyLTIyUzQyLjA1NiwwLDI5LjkyNSwweiBNMTguOTI1LDIzLjU3NVYxMC4wNDdjMy40NDUsMC4yMTQsNi44MjUsMS41MzIsOS41NzIsMy45NTZMMTguOTI1LDIzLjU3NXogICAgTTI4LjkyNSwxNi40MDN2OC41ODZoLTguNTg2TDI4LjkyNSwxNi40MDN6IE0xNi45MjUsMjMuNTc1TDcuMzQsMTMuOTljMi43NDctMi40MjYsNi4xMzgtMy43MzksOS41ODUtMy45NTJWMjMuNTc1eiAgICBNMjAuMzM5LDI2Ljk4OWg4LjU4NnY4LjU4NkwyMC4zMzksMjYuOTg5eiBNMzAuOTI1LDI0LjQxNGw5LjU3OSw5LjU3OWMtMi41ODgsMi4yODYtNS45MTksMy43NDktOS41NzksMy45NzZWMjQuNDE0eiAgICBNNDEuOTA3LDMyLjU2OEwzMi4zMzksMjNoMTMuNTM3QzQ1LjY0OCwyNi42NTgsNDQuMTkyLDI5Ljk4MSw0MS45MDcsMzIuNTY4eiBNMzIuMzM5LDIxbDkuNTY4LTkuNTY4ICAgYzIuMjg1LDIuNTg3LDMuNzQxLDUuOTEsMy45NjksOS41NjhIMzIuMzM5eiBNMzAuOTI1LDE5LjU4NnYtNi4wNTJ2LTUuMjhWNi4wMzFjMy42NiwwLjIyNyw2Ljk5MSwxLjY5MSw5LjU3OSwzLjk3NkwzMC45MjUsMTkuNTg2ICAgeiBNMjguOTI1LDkuMzA1djIuNDU3Yy02Ljc5My01LjI1Ni0xNi41LTQuOTc0LTIyLjk4NSwwLjgyOGwtMS40MzMtMS40MzNDMTEuMjU2LDUuMDQ0LDIxLjI5NSw0LjI1OSwyOC45MjUsOS4zMDV6IE0zMC45MjUsNDEuOTc1ICAgdi0xLjU3MnYtMC40NTNjOS40NTktMC41MjQsMTctOC4zNjIsMTctMTcuOTQ5cy03LjU0MS0xNy40MjYtMTctMTcuOTQ5VjIuMDI1YzEwLjU2NSwwLjUyMiwxOSw5LjI4MiwxOSwxOS45NzUgICBTNDEuNDksNDEuNDUzLDMwLjkyNSw0MS45NzV6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8cGF0aCBkPSJNNS4wNzUsMjFjLTAuNjk1LDAtMS4zMjgsMC4zODItMS42NTMsMC45OTZjLTIuMjIxLDQuMTk0LTMuMzQ3LDcuMDE0LTMuMzQ3LDguMzgxYzAsMi43NTcsMi4yNDMsNSw1LDVzNS0yLjI0Myw1LTUgICBjMC0xLjM2Ny0xLjEyNi00LjE4Ny0zLjM0Ny04LjM4QzYuNDAzLDIxLjM4Miw1Ljc3MSwyMSw1LjA3NSwyMXogTTUuMDc1LDMzLjM3N2MtMS42NTQsMC0zLTEuMzQ2LTMtM2MwLTAuNzQzLDAuNzkxLTMuMDMsMy03LjIyOSAgIGMyLjIwOSw0LjE5OCwzLDYuNDg1LDMsNy4yMjlDOC4wNzUsMzIuMDMxLDYuNzI5LDMzLjM3Nyw1LjA3NSwzMy4zNzd6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8cGF0aCBkPSJNMTkuMDc1LDM3LjYyNGMtMC42OTQsMC0xLjMyOCwwLjM4MS0xLjY1MywwLjk5NmMtMi4yMjEsNC4xOTUtMy4zNDcsNy4wMTUtMy4zNDcsOC4zODFjMCwyLjc1NywyLjI0Myw1LDUsNXM1LTIuMjQzLDUtNSAgIGMwLTEuMzY2LTEuMTI2LTQuMTg2LTMuMzQ3LTguMzgxQzIwLjQwMywzOC4wMDUsMTkuNzcsMzcuNjI0LDE5LjA3NSwzNy42MjR6IE0xOS4wNzUsNTBjLTEuNjU0LDAtMy0xLjM0Ni0zLTMgICBjMC0wLjc0MywwLjc5MS0zLjAyOSwzLTcuMjI5YzIuMjA5LDQuMTk5LDMsNi40ODYsMyw3LjIyOUMyMi4wNzUsNDguNjU0LDIwLjcyOSw1MCwxOS4wNzUsNTB6IiBmaWxsPSIjRkZGRkZGIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg=="
+              />
+              <p class="counter-value" data-translate="AboutPage.fresh.title">
+                Always Fresh
+              </p>
+              <p
+                class="counter-desc"
+                data-translate="AboutPage.fresh.description"
+              >
+                We guarantee that our products are always fresh, carefully
+                harvested, and quickly transported to maintain their peak
+                quality. From farm to table, we prioritize efficiency and speed
+                in our export process to ensure that every fruit reaches our
+                customers at the height of freshness. Whether you're enjoying
+                them locally or halfway around the world, you can trust that our
+                fruits deliver the same vibrant taste and crisp texture as the
+                moment they were picked.
+              </p>
+            </div>
+            <div class="col-xs-4 counter-item">
+              <img
+                src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU1IDU1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1NSA1NTsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiPgo8Zz4KCTxjaXJjbGUgY3g9IjQ3IiBjeT0iNDcuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iNDUiIGN5PSI0NC41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0MyIgY3k9IjQxLjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjQ3IiBjeT0iNDEuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iNDEiIGN5PSIzOC41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0NSIgY3k9IjM4LjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjM5IiBjeT0iMzUuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iNDMiIGN5PSIzNS41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0OSIgY3k9IjUwLjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjQ1IiBjeT0iNTAuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iNDMiIGN5PSI0Ny41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0MSIgY3k9IjQ0LjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjM5IiBjeT0iNDEuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iMzciIGN5PSIzOC41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSIzOSIgY3k9IjQ3LjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjM3IiBjeT0iNDQuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iMzUiIGN5PSI0MS41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0MSIgY3k9IjUwLjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjM3IiBjeT0iNTAuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iMzUiIGN5PSI0Ny41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSIzMyIgY3k9IjQ0LjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjMxIiBjeT0iNDcuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iMzMiIGN5PSI1MC41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSIyOSIgY3k9IjUwLjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxwYXRoIGQ9Ik01My4zNzQsNDUuNjg2Yy0xLjAxNS0xLjI1Ni0yLjQzNi0zLjU2OS0zLjgwOS01LjgwN2MtMS40MzktMi4zNDYtMi44LTQuNTYyLTMuODQ3LTUuODU1ICAgYy0xLjYzLTIuMDExLTMuNjMxLTMuMjM5LTUuNzE5LTMuNDc4VjEuNWMwLTAuNTUzLTAuNDQ4LTEtMS0xSDguMDA2Yy0wLjAwNSwwLTAuMDEsMC4wMDMtMC4wMTUsMC4wMDNTNy45ODEsMC41LDcuOTc2LDAuNUgxICAgYy0wLjU1MiwwLTEsMC40NDctMSwxdjQ2YzAsMC4zOTksMC4yMzgsMC43NjEsMC42MDUsMC45MTlsNi45NzYsM0M3LjcwOCw1MS40NzMsNy44NDIsNTEuNSw3Ljk3Niw1MS41ICAgYzAuMDA2LDAsMC4wMTItMC4wMDIsMC4wMTgtMC4wMDJjMC4wMDUsMCwwLjAwOCwwLjAwMiwwLjAxMywwLjAwMkgyMy40N2MwLjA1OCwwLjI2LDAuMTM2LDAuNTE0LDAuMjU3LDAuNzUyICAgYzAuNTIzLDEuMDI1LDEuODYxLDIuMjQ4LDUuMjYxLDIuMjQ4aDE4LjE2YzMuNzc0LDAsNi40OTgtMS4xNjksNy40NzEtMy4yMDdDNTUuNDA2LDQ5LjY0NCw1NC45NjQsNDcuNjUzLDUzLjM3NCw0NS42ODZ6ICAgIE02Ljk3Niw0OC45ODFMMiw0Ni44NDJWMi41aDQuOTc2VjQ4Ljk4MXogTTkuMDA2LDIuNUgzOFYzMC42Yy0wLjI2OCwwLjA0Ni0wLjUzMywwLjEwOS0wLjc5NiwwLjE4NyAgIGMtMC4wNzEsMC4wMjEtMC4xNDEsMC4wNTEtMC4yMTEsMC4wNzRjLTAuMjAzLDAuMDY3LTAuNDA2LDAuMTM4LTAuNjA1LDAuMjI0Yy0wLjEsMC4wNDMtMC4xOTcsMC4wOTQtMC4yOTUsMC4xNDEgICBjLTAuMTY4LDAuMDgxLTAuMzM1LDAuMTY0LTAuNDk5LDAuMjU4Yy0wLjEwNCwwLjA1OS0wLjIwNiwwLjEyNC0wLjMwOCwwLjE4OGMtMC4xNTYsMC4wOTgtMC4zMDksMC4yMDEtMC40NjEsMC4zMTEgICBjLTAuMTAxLDAuMDczLTAuMjAyLDAuMTQ4LTAuMzAxLDAuMjI3Yy0wLjE1MSwwLjExOS0wLjI5OCwwLjI0NS0wLjQ0NCwwLjM3NWMtMC4wOTMsMC4wODMtMC4xODcsMC4xNjQtMC4yNzgsMC4yNTIgICBjLTAuMTU2LDAuMTUtMC4zMDYsMC4zMS0wLjQ1NiwwLjQ3M2MtMC4wNzUsMC4wODItMC4xNTIsMC4xNTgtMC4yMjUsMC4yNDNjLTAuMjE5LDAuMjU0LTAuNDMzLDAuNTItMC42MzcsMC44MDMgICBjLTAuODk4LDEuMjQ0LTEuOTk1LDMuMTI5LTMuMTY5LDUuMmMtMC4yNDEsMC40MjUtMC40ODQsMC44NTQtMC43MzEsMS4yOTJjLTAuNDUyLDAuODAxLTAuOTA4LDEuNjA3LTEuMzU0LDIuMzg0ICAgYy0wLjkyMiwxLjYwNC0xLjgwMywzLjA3Ni0yLjUwOSw0LjA1Yy0wLjAxMywwLjAxOC0wLjAyMiwwLjAzNS0wLjAzNSwwLjA1M2MtMC4xNDEsMC4xOTctMC4yNjksMC4zOTItMC4zODgsMC41ODUgICBjLTAuMDM1LDAuMDU4LTAuMDY2LDAuMTE2LTAuMDk5LDAuMTc0Yy0wLjA5MSwwLjE1OC0wLjE3NiwwLjMxNS0wLjI1MiwwLjQ3MWMtMC4wMjksMC4wNTktMC4wNTUsMC4xMTgtMC4wODIsMC4xNzcgICBjLTAuMDcsMC4xNTUtMC4xMzIsMC4zMDktMC4xODcsMC40NjFjLTAuMDIsMC4wNTUtMC4wNDEsMC4xMTEtMC4wNTksMC4xNjZjLTAuMDE0LDAuMDQzLTAuMDMzLDAuMDg4LTAuMDQ2LDAuMTMxSDkuMDA2VjIuNXogICAgTTI4Ljk4OCw1Mi41Yy0xLjgzNiwwLTMuMTA0LTAuNDIyLTMuNDc5LTEuMTU2YzAtMC4wMDEsMC0wLjAwMiwwLTAuMDAyQzI1Ljc5Nyw1MS4xNjYsMjYsNTAuODYzLDI2LDUwLjUgICBjMC0wLjMxNS0wLjE1NS0wLjU4NS0wLjM4NC0wLjc2OGMwLjAxNi0wLjAzOCwwLjAyNS0wLjA3NCwwLjA0Mi0wLjExM2MwLjAxMi0wLjAyOCwwLjAyNy0wLjA1NywwLjA0LTAuMDg2ICAgYzAuMDY0LTAuMTM5LDAuMTM5LTAuMjgyLDAuMjIzLTAuNDI3YzAuMDIyLTAuMDM4LDAuMDQyLTAuMDc2LDAuMDY2LTAuMTE0YzAuMTA1LTAuMTc1LDAuMjIxLTAuMzUzLDAuMzUyLTAuNTM1ICAgYzAuMDMzLTAuMDQ2LDAuMDY5LTAuMTAxLDAuMTAzLTAuMTQ4QzI2LjYwNCw0OC40MTksMjYuNzg5LDQ4LjUsMjcsNDguNWMwLjU1MiwwLDEtMC40NDgsMS0xYzAtMC4zNTgtMC4xOTktMC42NTgtMC40ODItMC44MzUgICBjMC4yNzQtMC40NDQsMC41NTctMC45MTUsMC44NDgtMS40MDlDMjguNTM5LDQ1LjQwMiwyOC43NTUsNDUuNSwyOSw0NS41YzAuNTUyLDAsMS0wLjQ0OCwxLTFjMC0wLjQzMi0wLjI3Ny0wLjc5MS0wLjY2LTAuOTMxICAgYzAuMDgtMC4xNDEsMC4xNjEtMC4yODIsMC4yNDEtMC40MjRjMC4yMDUtMC4zNjEsMC40MDktMC43MjIsMC42MTMtMS4wODNDMzAuMzc1LDQyLjMyLDMwLjY2MSw0Mi41LDMxLDQyLjVjMC41NTIsMCwxLTAuNDQ4LDEtMSAgIGMwLTAuNTI4LTAuNDEyLTAuOTQ4LTAuOTMtMC45ODZjMC4zMzQtMC41ODksMC42NjUtMS4xNjcsMC45ODktMS43MjNDMzIuMTg1LDM5LjE5OCwzMi41NTEsMzkuNSwzMywzOS41YzAuNTUyLDAsMS0wLjQ0OCwxLTEgICBzLTAuNDQ4LTEtMS0xYy0wLjA3MSwwLTAuMTM0LDAuMDI2LTAuMjAxLDAuMDQxYzAuNDQ1LTAuNzM1LDAuODYtMS4zODMsMS4yMjktMS45MDRDMzQuMDk3LDM2LjEyMSwzNC40OTYsMzYuNSwzNSwzNi41ICAgYzAuNTUyLDAsMS0wLjQ0OCwxLTFzLTAuNDQ4LTEtMS0xYy0wLjAxMywwLTAuMDI0LDAuMDA3LTAuMDM3LDAuMDA3YzAuMjY4LTAuMjc3LDAuNTQxLTAuNTM4LDAuODI3LTAuNzYgICBjMC4xODQtMC4xNDMsMC4zNzEtMC4yNzEsMC41NjEtMC4zOWMwLjAxOC0wLjAxMSwwLjAzNS0wLjAyNiwwLjA1My0wLjAzN2MwLjgzNC0wLjUxMiwxLjcyMi0wLjc5MywyLjYyNC0wLjgxOCAgIGMwLjAwMiwwLDAuMDAzLTAuMDAxLDAuMDA0LTAuMDAxYzAuMDQ0LTAuMDAxLDAuMDg4LTAuMDAyLDAuMTMyLTAuMDAyYzEuNzcxLDAsMy41NDIsMC45ODQsNSwyLjc4NCAgIGMwLjk2NiwxLjE5MSwyLjM1NCwzLjQ1NCwzLjY5Nyw1LjY0MmMwLjU3OSwwLjk0NCwxLjE2NSwxLjg5NiwxLjczMiwyLjc5QzQ5LjQyNSw0My41ODksNDkuMjI3LDQzLjUsNDksNDMuNWMtMC41NTIsMC0xLDAuNDQ4LTEsMSAgIHMwLjQ0OCwxLDEsMXMxLTAuNDQ4LDEtMWMwLTAuMDc2LTAuMDI3LTAuMTQyLTAuMDQzLTAuMjEzYzAuNjI4LDAuOTczLDEuMjE5LDEuODM3LDEuNzQxLDIuNUM1MS41MTcsNDYuNjEsNTEuMjcyLDQ2LjUsNTEsNDYuNSAgIGMtMC41NTIsMC0xLDAuNDQ4LTEsMXMwLjQ0OCwxLDEsMXMxLTAuNDQ4LDEtMWMwLTAuMjU2LTAuMTAzLTAuNDgzLTAuMjYxLTAuNjZjMC4wMjYsMC4wMzMsMC4wNTUsMC4wNzMsMC4wODEsMC4xMDQgICBjMC43NDgsMC45MjUsMS4xMzgsMS44MDIsMS4xNjcsMi41NTlDNTIuNDQxLDQ5LjUxMSw1Miw0OS45NTMsNTIsNTAuNWMwLDAuMjQ4LDAuMSwwLjQ2NywwLjI0OSwwLjY0MiAgIEM1MS4yOTUsNTIsNDkuNDg4LDUyLjUsNDcuMTQ4LDUyLjVIMjguOTg4eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTIxLDI1LjcyN2MwLjU1MiwwLDEtMC40NDcsMS0xdi0zLjY1OGMwLTAuMTQ5LTAuMDEyLTAuMjk2LTAuMDIyLTAuNDQybDAuMzA4LDAuMzA4YzAuMTk1LDAuMTk1LDAuNDUxLDAuMjkzLDAuNzA3LDAuMjkzICAgczAuNTEyLTAuMDk4LDAuNzA3LTAuMjkzbDAuMzI0LTAuMzI0QzI0LjAxMiwyMC43NjMsMjQsMjAuOTE0LDI0LDIxLjA2OXYzLjY1OGMwLDAuNTUzLDAuNDQ4LDEsMSwxaDMuNjU4ICAgYzMuNDk3LDAsNi4zNDItMi44NDUsNi4zNDItNi4zNDF2LTMuNjU5YzAtMC41NTMtMC40NDgtMS0xLTFoLTMuNjU4Yy0wLjgyOCwwLTEuNjE3LDAuMTY0LTIuMzQzLDAuNDU0ICAgYzAuNDI4LTIuMDI5LTAuMTQtNC4yMjktMS43MTMtNS44MDJsLTIuNTg3LTIuNTg3Yy0wLjM5MS0wLjM5MS0xLjAyMy0wLjM5MS0xLjQxNCwwTDE5LjY5OCw5LjM4ICAgYy0xLjU3MSwxLjU3MS0yLjE0LDMuNzY4LTEuNzE0LDUuNzk1Yy0wLjcyMS0wLjI4Ni0xLjUwNC0wLjQ0OC0yLjMyNi0wLjQ0OEgxMmMtMC41NTIsMC0xLDAuNDQ3LTEsMXYzLjY1OSAgIGMwLDMuNDk2LDIuODQ1LDYuMzQxLDYuMzQyLDYuMzQxSDIxeiBNMzMsMTYuNzI3djIuNjU5YzAsMi4zOTQtMS45NDgsNC4zNDEtNC4zNDIsNC4zNDFIMjZ2LTIuNjU4ICAgYzAtMi4zOTUsMS45NDgtNC4zNDIsNC4zNDItNC4zNDJIMzN6IE0yMS4xMTIsMTAuNzk0bDEuODgtMS44OGwxLjg4LDEuODhjMS42OTIsMS42OTIsMS42OTIsNC40NDcsMCw2LjE0bC0xLjg4LDEuODhsLTEuODgtMS44OCAgIEMxOS40MiwxNS4yNDEsMTkuNDIsMTIuNDg2LDIxLjExMiwxMC43OTR6IE0xMywxOS4zODd2LTIuNjU5aDIuNjU4YzIuMzk0LDAsNC4zNDIsMS45NDcsNC4zNDIsNC4zNDJ2Mi42NThoLTIuNjU4ICAgQzE0Ljk0OCwyMy43MjcsMTMsMjEuNzgsMTMsMTkuMzg3eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTMyLDMyLjVjMC0wLjU1My0wLjQ0OC0xLTEtMUgxNmMtMC41NTIsMC0xLDAuNDQ3LTEsMXMwLjQ0OCwxLDEsMWgxNUMzMS41NTIsMzMuNSwzMiwzMy4wNTMsMzIsMzIuNXoiIGZpbGw9IiNGRkZGRkYiLz4KCTxwYXRoIGQ9Ik0xOSwyOC41Yy0wLjU1MiwwLTEsMC40NDctMSwxczAuNDQ4LDEsMSwxaDEwYzAuNTUyLDAsMS0wLjQ0NywxLTFzLTAuNDQ4LTEtMS0xSDE5eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTMwLDM1LjVjMC0wLjU1My0wLjQ0OC0xLTEtMUgxOWMtMC41NTIsMC0xLDAuNDQ3LTEsMXMwLjQ0OCwxLDEsMWgxMEMyOS41NTIsMzYuNSwzMCwzNi4wNTMsMzAsMzUuNXoiIGZpbGw9IiNGRkZGRkYiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K"
+              />
+              <p class="counter-value" data-translate="AboutPage.quality.title">
+                Best Quality
+              </p>
+              <p
+                class="counter-desc"
+                data-translate="AboutPage.quality.description"
+              >
+                Our products are synonymous with the highest quality. We
+                handpick only the finest fruits, ensuring that each one meets
+                rigorous standards for size, color, and taste. With a focus on
+                excellence at every step of the process—from cultivation to
+                packaging—we deliver premium fruits that stand out in both
+                flavor and appearance. When you choose our products, you’re
+                choosing the best nature has to offer.
+              </p>
+            </div>
           </div>
-         
-          <div class="col-xs-4 counter-item">
-              <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUyIDUyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MiA1MjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiPgo8Zz4KCTxwYXRoIGQ9Ik0yOS45MjUsMGgtMXY0djIuOTU4QzIwLjM3MiwxLjk5MSw5LjQ3MywzLjMyOCwyLjM2OCwxMC40MzNMMS42NjEsMTEuMTRsMi44MjgsMi44MjhsMCwwbDI0LjQzNiwyNC40MzVWNDB2NGgxICAgYzEyLjEzMSwwLDIyLTkuODY5LDIyLTIyUzQyLjA1NiwwLDI5LjkyNSwweiBNMTguOTI1LDIzLjU3NVYxMC4wNDdjMy40NDUsMC4yMTQsNi44MjUsMS41MzIsOS41NzIsMy45NTZMMTguOTI1LDIzLjU3NXogICAgTTI4LjkyNSwxNi40MDN2OC41ODZoLTguNTg2TDI4LjkyNSwxNi40MDN6IE0xNi45MjUsMjMuNTc1TDcuMzQsMTMuOTljMi43NDctMi40MjYsNi4xMzgtMy43MzksOS41ODUtMy45NTJWMjMuNTc1eiAgICBNMjAuMzM5LDI2Ljk4OWg4LjU4NnY4LjU4NkwyMC4zMzksMjYuOTg5eiBNMzAuOTI1LDI0LjQxNGw5LjU3OSw5LjU3OWMtMi41ODgsMi4yODYtNS45MTksMy43NDktOS41NzksMy45NzZWMjQuNDE0eiAgICBNNDEuOTA3LDMyLjU2OEwzMi4zMzksMjNoMTMuNTM3QzQ1LjY0OCwyNi42NTgsNDQuMTkyLDI5Ljk4MSw0MS45MDcsMzIuNTY4eiBNMzIuMzM5LDIxbDkuNTY4LTkuNTY4ICAgYzIuMjg1LDIuNTg3LDMuNzQxLDUuOTEsMy45NjksOS41NjhIMzIuMzM5eiBNMzAuOTI1LDE5LjU4NnYtNi4wNTJ2LTUuMjhWNi4wMzFjMy42NiwwLjIyNyw2Ljk5MSwxLjY5MSw5LjU3OSwzLjk3NkwzMC45MjUsMTkuNTg2ICAgeiBNMjguOTI1LDkuMzA1djIuNDU3Yy02Ljc5My01LjI1Ni0xNi41LTQuOTc0LTIyLjk4NSwwLjgyOGwtMS40MzMtMS40MzNDMTEuMjU2LDUuMDQ0LDIxLjI5NSw0LjI1OSwyOC45MjUsOS4zMDV6IE0zMC45MjUsNDEuOTc1ICAgdi0xLjU3MnYtMC40NTNjOS40NTktMC41MjQsMTctOC4zNjIsMTctMTcuOTQ5cy03LjU0MS0xNy40MjYtMTctMTcuOTQ5VjIuMDI1YzEwLjU2NSwwLjUyMiwxOSw5LjI4MiwxOSwxOS45NzUgICBTNDEuNDksNDEuNDUzLDMwLjkyNSw0MS45NzV6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8cGF0aCBkPSJNNS4wNzUsMjFjLTAuNjk1LDAtMS4zMjgsMC4zODItMS42NTMsMC45OTZjLTIuMjIxLDQuMTk0LTMuMzQ3LDcuMDE0LTMuMzQ3LDguMzgxYzAsMi43NTcsMi4yNDMsNSw1LDVzNS0yLjI0Myw1LTUgICBjMC0xLjM2Ny0xLjEyNi00LjE4Ny0zLjM0Ny04LjM4QzYuNDAzLDIxLjM4Miw1Ljc3MSwyMSw1LjA3NSwyMXogTTUuMDc1LDMzLjM3N2MtMS42NTQsMC0zLTEuMzQ2LTMtM2MwLTAuNzQzLDAuNzkxLTMuMDMsMy03LjIyOSAgIGMyLjIwOSw0LjE5OCwzLDYuNDg1LDMsNy4yMjlDOC4wNzUsMzIuMDMxLDYuNzI5LDMzLjM3Nyw1LjA3NSwzMy4zNzd6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8cGF0aCBkPSJNMTkuMDc1LDM3LjYyNGMtMC42OTQsMC0xLjMyOCwwLjM4MS0xLjY1MywwLjk5NmMtMi4yMjEsNC4xOTUtMy4zNDcsNy4wMTUtMy4zNDcsOC4zODFjMCwyLjc1NywyLjI0Myw1LDUsNXM1LTIuMjQzLDUtNSAgIGMwLTEuMzY2LTEuMTI2LTQuMTg2LTMuMzQ3LTguMzgxQzIwLjQwMywzOC4wMDUsMTkuNzcsMzcuNjI0LDE5LjA3NSwzNy42MjR6IE0xOS4wNzUsNTBjLTEuNjU0LDAtMy0xLjM0Ni0zLTMgICBjMC0wLjc0MywwLjc5MS0zLjAyOSwzLTcuMjI5YzIuMjA5LDQuMTk5LDMsNi40ODYsMyw3LjIyOUMyMi4wNzUsNDguNjU0LDIwLjcyOSw1MCwxOS4wNzUsNTB6IiBmaWxsPSIjRkZGRkZGIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
-            <p class="counter-value"data-translate="AboutPage.fresh.title">Always Fresh</p>
-            <p class="counter-desc"data-translate="AboutPage.fresh.description">We guarantee that our products are always fresh, carefully harvested, and quickly transported to maintain their peak quality. From farm to table, we prioritize efficiency and speed in our export process to ensure that every fruit reaches our customers at the height of freshness. Whether you're enjoying them locally or halfway around the world, you can trust that our fruits deliver the same vibrant taste and crisp texture as the moment they were picked.</p>
-          </div>
-          <div class="col-xs-4 counter-item">
-              <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU1IDU1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1NSA1NTsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiPgo8Zz4KCTxjaXJjbGUgY3g9IjQ3IiBjeT0iNDcuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iNDUiIGN5PSI0NC41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0MyIgY3k9IjQxLjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjQ3IiBjeT0iNDEuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iNDEiIGN5PSIzOC41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0NSIgY3k9IjM4LjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjM5IiBjeT0iMzUuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iNDMiIGN5PSIzNS41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0OSIgY3k9IjUwLjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjQ1IiBjeT0iNTAuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iNDMiIGN5PSI0Ny41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0MSIgY3k9IjQ0LjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjM5IiBjeT0iNDEuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iMzciIGN5PSIzOC41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSIzOSIgY3k9IjQ3LjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjM3IiBjeT0iNDQuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iMzUiIGN5PSI0MS41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSI0MSIgY3k9IjUwLjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjM3IiBjeT0iNTAuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iMzUiIGN5PSI0Ny41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSIzMyIgY3k9IjQ0LjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxjaXJjbGUgY3g9IjMxIiBjeT0iNDcuNSIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIvPgoJPGNpcmNsZSBjeD0iMzMiIGN5PSI1MC41IiByPSIxIiBmaWxsPSIjRkZGRkZGIi8+Cgk8Y2lyY2xlIGN4PSIyOSIgY3k9IjUwLjUiIHI9IjEiIGZpbGw9IiNGRkZGRkYiLz4KCTxwYXRoIGQ9Ik01My4zNzQsNDUuNjg2Yy0xLjAxNS0xLjI1Ni0yLjQzNi0zLjU2OS0zLjgwOS01LjgwN2MtMS40MzktMi4zNDYtMi44LTQuNTYyLTMuODQ3LTUuODU1ICAgYy0xLjYzLTIuMDExLTMuNjMxLTMuMjM5LTUuNzE5LTMuNDc4VjEuNWMwLTAuNTUzLTAuNDQ4LTEtMS0xSDguMDA2Yy0wLjAwNSwwLTAuMDEsMC4wMDMtMC4wMTUsMC4wMDNTNy45ODEsMC41LDcuOTc2LDAuNUgxICAgYy0wLjU1MiwwLTEsMC40NDctMSwxdjQ2YzAsMC4zOTksMC4yMzgsMC43NjEsMC42MDUsMC45MTlsNi45NzYsM0M3LjcwOCw1MS40NzMsNy44NDIsNTEuNSw3Ljk3Niw1MS41ICAgYzAuMDA2LDAsMC4wMTItMC4wMDIsMC4wMTgtMC4wMDJjMC4wMDUsMCwwLjAwOCwwLjAwMiwwLjAxMywwLjAwMkgyMy40N2MwLjA1OCwwLjI2LDAuMTM2LDAuNTE0LDAuMjU3LDAuNzUyICAgYzAuNTIzLDEuMDI1LDEuODYxLDIuMjQ4LDUuMjYxLDIuMjQ4aDE4LjE2YzMuNzc0LDAsNi40OTgtMS4xNjksNy40NzEtMy4yMDdDNTUuNDA2LDQ5LjY0NCw1NC45NjQsNDcuNjUzLDUzLjM3NCw0NS42ODZ6ICAgIE02Ljk3Niw0OC45ODFMMiw0Ni44NDJWMi41aDQuOTc2VjQ4Ljk4MXogTTkuMDA2LDIuNUgzOFYzMC42Yy0wLjI2OCwwLjA0Ni0wLjUzMywwLjEwOS0wLjc5NiwwLjE4NyAgIGMtMC4wNzEsMC4wMjEtMC4xNDEsMC4wNTEtMC4yMTEsMC4wNzRjLTAuMjAzLDAuMDY3LTAuNDA2LDAuMTM4LTAuNjA1LDAuMjI0Yy0wLjEsMC4wNDMtMC4xOTcsMC4wOTQtMC4yOTUsMC4xNDEgICBjLTAuMTY4LDAuMDgxLTAuMzM1LDAuMTY0LTAuNDk5LDAuMjU4Yy0wLjEwNCwwLjA1OS0wLjIwNiwwLjEyNC0wLjMwOCwwLjE4OGMtMC4xNTYsMC4wOTgtMC4zMDksMC4yMDEtMC40NjEsMC4zMTEgICBjLTAuMTAxLDAuMDczLTAuMjAyLDAuMTQ4LTAuMzAxLDAuMjI3Yy0wLjE1MSwwLjExOS0wLjI5OCwwLjI0NS0wLjQ0NCwwLjM3NWMtMC4wOTMsMC4wODMtMC4xODcsMC4xNjQtMC4yNzgsMC4yNTIgICBjLTAuMTU2LDAuMTUtMC4zMDYsMC4zMS0wLjQ1NiwwLjQ3M2MtMC4wNzUsMC4wODItMC4xNTIsMC4xNTgtMC4yMjUsMC4yNDNjLTAuMjE5LDAuMjU0LTAuNDMzLDAuNTItMC42MzcsMC44MDMgICBjLTAuODk4LDEuMjQ0LTEuOTk1LDMuMTI5LTMuMTY5LDUuMmMtMC4yNDEsMC40MjUtMC40ODQsMC44NTQtMC43MzEsMS4yOTJjLTAuNDUyLDAuODAxLTAuOTA4LDEuNjA3LTEuMzU0LDIuMzg0ICAgYy0wLjkyMiwxLjYwNC0xLjgwMywzLjA3Ni0yLjUwOSw0LjA1Yy0wLjAxMywwLjAxOC0wLjAyMiwwLjAzNS0wLjAzNSwwLjA1M2MtMC4xNDEsMC4xOTctMC4yNjksMC4zOTItMC4zODgsMC41ODUgICBjLTAuMDM1LDAuMDU4LTAuMDY2LDAuMTE2LTAuMDk5LDAuMTc0Yy0wLjA5MSwwLjE1OC0wLjE3NiwwLjMxNS0wLjI1MiwwLjQ3MWMtMC4wMjksMC4wNTktMC4wNTUsMC4xMTgtMC4wODIsMC4xNzcgICBjLTAuMDcsMC4xNTUtMC4xMzIsMC4zMDktMC4xODcsMC40NjFjLTAuMDIsMC4wNTUtMC4wNDEsMC4xMTEtMC4wNTksMC4xNjZjLTAuMDE0LDAuMDQzLTAuMDMzLDAuMDg4LTAuMDQ2LDAuMTMxSDkuMDA2VjIuNXogICAgTTI4Ljk4OCw1Mi41Yy0xLjgzNiwwLTMuMTA0LTAuNDIyLTMuNDc5LTEuMTU2YzAtMC4wMDEsMC0wLjAwMiwwLTAuMDAyQzI1Ljc5Nyw1MS4xNjYsMjYsNTAuODYzLDI2LDUwLjUgICBjMC0wLjMxNS0wLjE1NS0wLjU4NS0wLjM4NC0wLjc2OGMwLjAxNi0wLjAzOCwwLjAyNS0wLjA3NCwwLjA0Mi0wLjExM2MwLjAxMi0wLjAyOCwwLjAyNy0wLjA1NywwLjA0LTAuMDg2ICAgYzAuMDY0LTAuMTM5LDAuMTM5LTAuMjgyLDAuMjIzLTAuNDI3YzAuMDIyLTAuMDM4LDAuMDQyLTAuMDc2LDAuMDY2LTAuMTE0YzAuMTA1LTAuMTc1LDAuMjIxLTAuMzUzLDAuMzUyLTAuNTM1ICAgYzAuMDMzLTAuMDQ2LDAuMDY5LTAuMTAxLDAuMTAzLTAuMTQ4QzI2LjYwNCw0OC40MTksMjYuNzg5LDQ4LjUsMjcsNDguNWMwLjU1MiwwLDEtMC40NDgsMS0xYzAtMC4zNTgtMC4xOTktMC42NTgtMC40ODItMC44MzUgICBjMC4yNzQtMC40NDQsMC41NTctMC45MTUsMC44NDgtMS40MDlDMjguNTM5LDQ1LjQwMiwyOC43NTUsNDUuNSwyOSw0NS41YzAuNTUyLDAsMS0wLjQ0OCwxLTFjMC0wLjQzMi0wLjI3Ny0wLjc5MS0wLjY2LTAuOTMxICAgYzAuMDgtMC4xNDEsMC4xNjEtMC4yODIsMC4yNDEtMC40MjRjMC4yMDUtMC4zNjEsMC40MDktMC43MjIsMC42MTMtMS4wODNDMzAuMzc1LDQyLjMyLDMwLjY2MSw0Mi41LDMxLDQyLjVjMC41NTIsMCwxLTAuNDQ4LDEtMSAgIGMwLTAuNTI4LTAuNDEyLTAuOTQ4LTAuOTMtMC45ODZjMC4zMzQtMC41ODksMC42NjUtMS4xNjcsMC45ODktMS43MjNDMzIuMTg1LDM5LjE5OCwzMi41NTEsMzkuNSwzMywzOS41YzAuNTUyLDAsMS0wLjQ0OCwxLTEgICBzLTAuNDQ4LTEtMS0xYy0wLjA3MSwwLTAuMTM0LDAuMDI2LTAuMjAxLDAuMDQxYzAuNDQ1LTAuNzM1LDAuODYtMS4zODMsMS4yMjktMS45MDRDMzQuMDk3LDM2LjEyMSwzNC40OTYsMzYuNSwzNSwzNi41ICAgYzAuNTUyLDAsMS0wLjQ0OCwxLTFzLTAuNDQ4LTEtMS0xYy0wLjAxMywwLTAuMDI0LDAuMDA3LTAuMDM3LDAuMDA3YzAuMjY4LTAuMjc3LDAuNTQxLTAuNTM4LDAuODI3LTAuNzYgICBjMC4xODQtMC4xNDMsMC4zNzEtMC4yNzEsMC41NjEtMC4zOWMwLjAxOC0wLjAxMSwwLjAzNS0wLjAyNiwwLjA1My0wLjAzN2MwLjgzNC0wLjUxMiwxLjcyMi0wLjc5MywyLjYyNC0wLjgxOCAgIGMwLjAwMiwwLDAuMDAzLTAuMDAxLDAuMDA0LTAuMDAxYzAuMDQ0LTAuMDAxLDAuMDg4LTAuMDAyLDAuMTMyLTAuMDAyYzEuNzcxLDAsMy41NDIsMC45ODQsNSwyLjc4NCAgIGMwLjk2NiwxLjE5MSwyLjM1NCwzLjQ1NCwzLjY5Nyw1LjY0MmMwLjU3OSwwLjk0NCwxLjE2NSwxLjg5NiwxLjczMiwyLjc5QzQ5LjQyNSw0My41ODksNDkuMjI3LDQzLjUsNDksNDMuNWMtMC41NTIsMC0xLDAuNDQ4LTEsMSAgIHMwLjQ0OCwxLDEsMXMxLTAuNDQ4LDEtMWMwLTAuMDc2LTAuMDI3LTAuMTQyLTAuMDQzLTAuMjEzYzAuNjI4LDAuOTczLDEuMjE5LDEuODM3LDEuNzQxLDIuNUM1MS41MTcsNDYuNjEsNTEuMjcyLDQ2LjUsNTEsNDYuNSAgIGMtMC41NTIsMC0xLDAuNDQ4LTEsMXMwLjQ0OCwxLDEsMXMxLTAuNDQ4LDEtMWMwLTAuMjU2LTAuMTAzLTAuNDgzLTAuMjYxLTAuNjZjMC4wMjYsMC4wMzMsMC4wNTUsMC4wNzMsMC4wODEsMC4xMDQgICBjMC43NDgsMC45MjUsMS4xMzgsMS44MDIsMS4xNjcsMi41NTlDNTIuNDQxLDQ5LjUxMSw1Miw0OS45NTMsNTIsNTAuNWMwLDAuMjQ4LDAuMSwwLjQ2NywwLjI0OSwwLjY0MiAgIEM1MS4yOTUsNTIsNDkuNDg4LDUyLjUsNDcuMTQ4LDUyLjVIMjguOTg4eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTIxLDI1LjcyN2MwLjU1MiwwLDEtMC40NDcsMS0xdi0zLjY1OGMwLTAuMTQ5LTAuMDEyLTAuMjk2LTAuMDIyLTAuNDQybDAuMzA4LDAuMzA4YzAuMTk1LDAuMTk1LDAuNDUxLDAuMjkzLDAuNzA3LDAuMjkzICAgczAuNTEyLTAuMDk4LDAuNzA3LTAuMjkzbDAuMzI0LTAuMzI0QzI0LjAxMiwyMC43NjMsMjQsMjAuOTE0LDI0LDIxLjA2OXYzLjY1OGMwLDAuNTUzLDAuNDQ4LDEsMSwxaDMuNjU4ICAgYzMuNDk3LDAsNi4zNDItMi44NDUsNi4zNDItNi4zNDF2LTMuNjU5YzAtMC41NTMtMC40NDgtMS0xLTFoLTMuNjU4Yy0wLjgyOCwwLTEuNjE3LDAuMTY0LTIuMzQzLDAuNDU0ICAgYzAuNDI4LTIuMDI5LTAuMTQtNC4yMjktMS43MTMtNS44MDJsLTIuNTg3LTIuNTg3Yy0wLjM5MS0wLjM5MS0xLjAyMy0wLjM5MS0xLjQxNCwwTDE5LjY5OCw5LjM4ICAgYy0xLjU3MSwxLjU3MS0yLjE0LDMuNzY4LTEuNzE0LDUuNzk1Yy0wLjcyMS0wLjI4Ni0xLjUwNC0wLjQ0OC0yLjMyNi0wLjQ0OEgxMmMtMC41NTIsMC0xLDAuNDQ3LTEsMXYzLjY1OSAgIGMwLDMuNDk2LDIuODQ1LDYuMzQxLDYuMzQyLDYuMzQxSDIxeiBNMzMsMTYuNzI3djIuNjU5YzAsMi4zOTQtMS45NDgsNC4zNDEtNC4zNDIsNC4zNDFIMjZ2LTIuNjU4ICAgYzAtMi4zOTUsMS45NDgtNC4zNDIsNC4zNDItNC4zNDJIMzN6IE0yMS4xMTIsMTAuNzk0bDEuODgtMS44OGwxLjg4LDEuODhjMS42OTIsMS42OTIsMS42OTIsNC40NDcsMCw2LjE0bC0xLjg4LDEuODhsLTEuODgtMS44OCAgIEMxOS40MiwxNS4yNDEsMTkuNDIsMTIuNDg2LDIxLjExMiwxMC43OTR6IE0xMywxOS4zODd2LTIuNjU5aDIuNjU4YzIuMzk0LDAsNC4zNDIsMS45NDcsNC4zNDIsNC4zNDJ2Mi42NThoLTIuNjU4ICAgQzE0Ljk0OCwyMy43MjcsMTMsMjEuNzgsMTMsMTkuMzg3eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTMyLDMyLjVjMC0wLjU1My0wLjQ0OC0xLTEtMUgxNmMtMC41NTIsMC0xLDAuNDQ3LTEsMXMwLjQ0OCwxLDEsMWgxNUMzMS41NTIsMzMuNSwzMiwzMy4wNTMsMzIsMzIuNXoiIGZpbGw9IiNGRkZGRkYiLz4KCTxwYXRoIGQ9Ik0xOSwyOC41Yy0wLjU1MiwwLTEsMC40NDctMSwxczAuNDQ4LDEsMSwxaDEwYzAuNTUyLDAsMS0wLjQ0NywxLTFzLTAuNDQ4LTEtMS0xSDE5eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPHBhdGggZD0iTTMwLDM1LjVjMC0wLjU1My0wLjQ0OC0xLTEtMUgxOWMtMC41NTIsMC0xLDAuNDQ3LTEsMXMwLjQ0OCwxLDEsMWgxMEMyOS41NTIsMzYuNSwzMCwzNi4wNTMsMzAsMzUuNXoiIGZpbGw9IiNGRkZGRkYiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
-            <p class="counter-value"data-translate="AboutPage.quality.title">Best Quality</p>
-            <p class="counter-desc"data-translate="AboutPage.quality.description">Our products are synonymous with the highest quality. We handpick only the finest fruits, ensuring that each one meets rigorous standards for size, color, and taste. With a focus on excellence at every step of the process—from cultivation to packaging—we deliver premium fruits that stand out in both flavor and appearance. When you choose our products, you’re choosing the best nature has to offer.</p>
-          </div>
-        </div>          
+        </div>
       </div>
-    </div>
-        <br>
-   <div class="container">
+      <br />
+      <div class="container">
         <div class="section-header">
           <div class="col-xs-12">
-            <h1 class="section-title"data-translate="company.welcome">Welcome To Jesco</h1>
+            <h1 class="section-title" data-translate="company.welcome">
+              Welcome To Jesco
+            </h1>
             <div class="separator"></div>
-            <p class="lead"data-translate="AboutPage.welcome_message">
-              Jesco Import and Export Company is built on the principle of fair, transparent, and mutually beneficial commercial cooperation. With a specialized focus on the global trade of fresh fruits and vegetables, Jesco is committed to establishing strong, long-term relationships with all parties involved in the international supply chain. We welcome cooperation with fruit and vegetable producers seeking to export their harvests, importers and distributors in need of premium-quality produce, factories requiring raw or processed agricultural inputs, and businesses engaged in the import or export of perishable goods. Jesco also partners with essential logistics and service providers such as sea, air, land, and postal shipping companies, cold chain logistics specialists, customs clearance agents, and organizers of agricultural exhibitions and trade events. At Jesco, we believe that credibility, transparency, and fairness are not just operational values—they are our most valuable assets and the true foundation of every successful partnership. Through honest collaboration and professional integrity, we strive to deliver excellence in every shipment and foster shared growth in the global fruits and vegetables market.
+            <p class="lead" data-translate="AboutPage.welcome_message">
+              Jesco is a dynamic import and export company that operates across
+              diverse industries, including food products such as fresh or
+              frozen fruits and vegetables. With a strong network of global
+              partners and a commitment to reliability, the company facilitates
+              seamless international trade, connecting businesses with the
+              products and markets they need to grow.
             </p>
           </div>
-        </div> 
-    </div>
-
-    <div class="container">
-      <div class="section-header">
-        <div class="col-xs-12">
-          <h1 class="section-title"data-translate="AboutPage.mission.title">Mission statement </h1>
-          <div class="separator"></div>
-          <p class="lead"data-translate="AboutPage.mission.description">
-            At Jesco, our mission is to connect the world with the finest, freshest fruits and vegetables from Egypt, delivering exceptional quality and value through trusted export services. We are dedicated to providing end-to-end solutions including expert sorting, packing, and logistics, ensuring our clients receive products that meet the highest standards of freshness, flavor, and sustainability. Our commitment is to build long-term partnerships, promote global trade, and contribute to the success of every customer we serve—while upholding ethical practices and proudly supporting Egypt’s rich agricultural heritage.          </p>
         </div>
-      </div> 
-  </div>
+      </div>
 
-        
-  <!--      
+      <div class="container">
+        <div class="section-header">
+          <div class="col-xs-12">
+            <h1 class="section-title" data-translate="AboutPage.mission.title">
+              Our vision
+            </h1>
+            <div class="separator"></div>
+            <p class="lead" data-translate="AboutPage.mission.description">
+              Our mission is to simplify global trade by providing reliable,
+              efficient, and tailored import and export solutions for businesses
+              of all sizes. We are dedicated to understanding the unique needs
+              of every client, sourcing high-quality products, and ensuring
+              smooth logistics, while maintaining a commitment to transparency,
+              customer satisfaction, and long-term partnership
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="section-header">
+          <div class="col-xs-12">
+            <h1
+              class="section-title"
+              data-translate="AboutPage.OurVision.title"
+            >
+              Our Vision
+            </h1>
+            <div class="separator"></div>
+            <p class="lead" data-translate="AboutPage.OurVision.description">
+              Our vision is to be a trusted global bridge for trade, recognized
+              for delivering quality products, fostering strong international
+              relationships, and creating sustainable growth opportunities
+              across multiple industries. We aspire to set new benchmarks in
+              global commerce by combining innovation,
+              integrity, and excellence.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--      
     <div class="section bg-white padding-sm" id="sponsors">
       <div class="container">
         <div class="row pd-t-lg">
@@ -147,44 +256,80 @@
       </div>
     </div>
     -->
-   <button class="btn btn-half-dark btn-scrolltop" id="scrollTop">
-      <i class="fa fa-chevron-up"></i>
-    </button>
+      <button class="btn btn-half-dark btn-scrolltop" id="scrollTop">
+        <i class="fa fa-chevron-up"></i>
+      </button>
     </div>
-    
+
     <!-- FOOTER
   ============================================== -->
-  <footer class="footer">
+    <footer class="footer">
       <div class="footer-widgets">
         <div class="container">
           <div class="row">
             <div class="col-md-3 footer-widget">
-              <img class="footer-logo" src="images/footer/footer_logo.png" alt="..." />
+              <img
+                class="footer-logo"
+                src="images/footer/footer_logo.png"
+                alt="..."
+              />
               <p class="pd-r-md" data-translate="footer.description">
                 Jesco is one of the best companies in the field of exporting
                 agricultural crops (vegetables and fruits)
               </p>
             </div>
             <div class="col-md-3 footer-widget">
-              <h4 class="widget-title" data-translate="footer.processing_title">PROCESSING</h4>
+              <h4 class="widget-title" data-translate="footer.processing_title">
+                PROCESSING
+              </h4>
               <ul class="links list-unstyled">
-                <li><a href="prossesing.html" data-translate="footer.sorting">SORTING</a></li>
-                <li><a href="prossesing.html" data-translate="footer.packing">PACKING</a></li>
-                <li><a href="prossesing.html" data-translate="footer.export">EXPORT</a></li>
+                <li>
+                  <a href="prossesing.html" data-translate="footer.sorting"
+                    >SORTING</a
+                  >
+                </li>
+                <li>
+                  <a href="prossesing.html" data-translate="footer.packing"
+                    >PACKING</a
+                  >
+                </li>
+                <li>
+                  <a href="prossesing.html" data-translate="footer.export"
+                    >EXPORT</a
+                  >
+                </li>
               </ul>
             </div>
             <div class="col-md-3 footer-widget">
-              <h4 class="widget-title" data-translate="footer.useful_links">Useful links</h4>
+              <h4 class="widget-title" data-translate="footer.useful_links">
+                Useful links
+              </h4>
               <ul class="links list-unstyled">
                 <li><a href="index.html" data-translate="nav.home">HOME</a></li>
-                <li><a href="aboutus.html" data-translate="nav.about">ABOUT US</a></li>
-                <li><a href="prossesing.html" data-translate="nav.processing">PROCESSING</a></li>
-                <li><a href="product.html" data-translate="nav.products">PRODUCTS</a></li>
-                <li><a href="contact.html" data-translate="nav.contact">CONTACT US</a></li>
+                <li>
+                  <a href="aboutus.html" data-translate="nav.about">ABOUT US</a>
+                </li>
+                <li>
+                  <a href="prossesing.html" data-translate="nav.processing"
+                    >PROCESSING</a
+                  >
+                </li>
+                <li>
+                  <a href="product.html" data-translate="nav.products"
+                    >PRODUCTS</a
+                  >
+                </li>
+                <li>
+                  <a href="contact.html" data-translate="nav.contact"
+                    >CONTACT US</a
+                  >
+                </li>
               </ul>
             </div>
             <div class="col-md-3 footer-widget">
-              <h4 class="widget-title" data-translate="footer.contact_title">Contact us</h4>
+              <h4 class="widget-title" data-translate="footer.contact_title">
+                Contact us
+              </h4>
               <ul class="links list-unstyled">
                 <li>
                   <i class="fa fa-envelope mg-r-sm"></i>
@@ -192,12 +337,17 @@
                 </li>
                 <li>
                   <i class="fa fa-phone-square mg-r-sm"></i>
-                  <span>+20 128 1492 456</span>
+                  <span>+20 120 1111 832</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone mg-r-sm"></i>
+                  <span>02 2290 3890</span>
                 </li>
                 <li>
                   <i class="fa fa-home mg-r-sm"></i>
                   <span data-translate="footer.address">
-                    20 mohamed El-Mahdy ST El Golf Land - Nasr city - Cairo - Egypt
+                    20 mohamed El-Mahdy ST El Golf Land - Nasr city - Cairo -
+                    Egypt
                   </span>
                 </li>
               </ul>
@@ -215,13 +365,25 @@
             </div>
             <div class="col-md-6"></div>
             <div class="col-md-3 col-sm-8 block-socials hidden-xxs">
-              <a class="socials-facebook" href="https://www.facebook.com/profile.php?id=61567760617629" title="facebook">
+              <a
+                class="socials-facebook"
+                href="https://www.facebook.com/profile.php?id=61567760617629"
+                title="facebook"
+              >
                 <i class="fa fa-facebook"></i>
               </a>
-              <a class="socials-youtube" href="https://www.youtube.com/@Jesco-Exporting.and.Importing" title="youtube">
+              <a
+                class="socials-youtube"
+                href="https://www.youtube.com/@Jesco-Exporting.and.Importing"
+                title="youtube"
+              >
                 <i class="fa fa-youtube-play"></i>
               </a>
-              <a class="socials-twitter" href="https://www.instagram.com/jescoegypt/" title="instagram">
+              <a
+                class="socials-twitter"
+                href="https://www.instagram.com/jescoegypt/"
+                title="instagram"
+              >
                 <i class="fa fa-instagram"></i>
               </a>
             </div>
@@ -229,21 +391,25 @@
         </div>
       </div>
     </footer>
-  <!-- SCRIPTS
+    <a
+      href="https://wa.me/+201201111891"
+      target="_blank"
+      id="scroll-top"
+      class="scroll-top"
+      ><i class="fa-brands fa-whatsapp"></i
+    ></a>
+    <!-- SCRIPTS
   ============================================== -->
-  <script src="javascripts/core/jquery/jquery.js"></script>
-  <script src="javascripts/core/bootstrap/bootstrap.js"></script> 
-  <script src="javascripts/plugins/waypoints.min.js"></script> 
-  <script src="javascripts/plugins/wow.min.js"></script>
-  <script src="javascripts/plugins/owlcarousel.min.js"></script>   
-  <script src="javascripts/plugins/parallax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-  <script src="javascripts/plugins/gmap.js"></script>
-  <script src="javascripts/plugins/retina.min.js"></script>  
-  <script src="javascripts/scripts.js"></script>
-  <script src="javascripts/translation.js"></script>
-
-
-</body>
-
+    <script src="javascripts/core/jquery/jquery.js"></script>
+    <script src="javascripts/core/bootstrap/bootstrap.js"></script>
+    <script src="javascripts/plugins/waypoints.min.js"></script>
+    <script src="javascripts/plugins/wow.min.js"></script>
+    <script src="javascripts/plugins/owlcarousel.min.js"></script>
+    <script src="javascripts/plugins/parallax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="javascripts/plugins/gmap.js"></script>
+    <script src="javascripts/plugins/retina.min.js"></script>
+    <script src="javascripts/scripts.js"></script>
+    <script src="javascripts/translation.js"></script>
+  </body>
 </html>

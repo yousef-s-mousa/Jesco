@@ -89,11 +89,16 @@
     "title": "Best Quality",
     "description": "Our products are synonymous with the highest quality. We handpick only the finest fruits, ensuring that each one meets rigorous standards for size, color, and taste. With a focus on excellence at every step of the process—from cultivation to packaging—we deliver premium fruits that stand out in both flavor and appearance. When you choose our products, you’re choosing the best nature has to offer."
   },
-  "welcome_message": "Jesco Import and Export Company is built on the principle of fair, transparent, and mutually beneficial commercial cooperation. With a specialized focus on the global trade of fresh fruits and vegetables, Jesco is committed to establishing strong, long-term relationships with all parties involved in the international supply chain. We welcome cooperation with fruit and vegetable producers seeking to export their harvests, importers and distributors in need of premium-quality produce, factories requiring raw or processed agricultural inputs, and businesses engaged in the import or export of perishable goods. Jesco also partners with essential logistics and service providers such as sea, air, land, and postal shipping companies, cold chain logistics specialists, customs clearance agents, and organizers of agricultural exhibitions and trade events. At Jesco, we believe that credibility, transparency, and fairness are not just operational values—they are our most valuable assets and the true foundation of every successful partnership. Through honest collaboration and professional integrity, we strive to deliver excellence in every shipment and foster shared growth in the global fruits and vegetables market.",
+  "welcome_message": "Jesco is a dynamic import and export company that operates across diverse industries, including food products such as fresh or frozen fruits and vegetables. With a strong network of global partners and a commitment to reliability, the company facilitates seamless international trade, connecting businesses with the products and markets they need to grow.",
   "mission":{
-    "description": "At Jesco, our mission is to connect the world with the finest, freshest fruits and vegetables from Egypt, delivering exceptional quality and value through trusted export services. We are dedicated to providing end-to-end solutions including expert sorting, packing, and logistics, ensuring our clients receive products that meet the highest standards of freshness, flavor, and sustainability. Our commitment is to build long-term partnerships, promote global trade, and contribute to the success of every customer we serve—while upholding ethical practices and proudly supporting Egypt’s rich agricultural heritage.",
+    "description": "Our mission is to simplify global trade by providing reliable, efficient, and tailored import and export solutions for businesses of all sizes. We are dedicated to understanding the unique needs of every client, sourcing high-quality products, and ensuring smooth logistics, while maintaining a commitment to transparency, customer satisfaction, and long-term partnership",
     "title": "Our Mission"
+    },
+    "OurVision":{
+      "title": "Our Vision",
+      "description": "Our vision is to be a trusted global bridge for trade, recognized for delivering quality products, fostering strong international relationships, and creating sustainable growth opportunities across multiple industries. We aspire to set new benchmarks in global commerce by combining innovation, integrity, and excellence."
     }
+    
 },
   "seasons": {
     "title": "Seasons",

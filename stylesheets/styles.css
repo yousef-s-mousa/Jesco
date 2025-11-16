@@ -12407,3 +12407,39 @@ div.image {max-width: 256px;max-height: 256px;background-image: url(data:image/s
   }
 }
 /*  */
+
+/* whatsapp */
+.scroll-top {
+  position: fixed;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  /* var(--accent-color) */
+  right: 19px;
+  bottom: 65px;
+  z-index: 99999;
+  background-color: lightgreen;
+  width: 40px;
+  height: 40px;
+  /* border-radius: 4px; */
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+.scroll-top i {
+  /* var(--contrast-color) */
+  font-size: 24px;
+  color: white;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.scroll-top:hover {
+  /* color-mix(in srgb, var(--accent-color), transparent 20%) */
+  background-color: green;
+  text-decoration: none;
+  /* color: var(--contrast-color); */
+}
+/* whatsapp end */
