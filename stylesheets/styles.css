@@ -11258,7 +11258,7 @@ section, .section {
   .footer-copyright .socials-facebook:hover {
     background-color: #507CBE; }
   .footer-copyright .socials-twitter:hover {
-    background-color: #2287B3; }
+    background-color: #E1306C; }
   .footer-copyright .socials-linkedin:hover {
     background-color: #02527B; }
   .footer-copyright .socials-behance:hover {
@@ -12443,3 +12443,199 @@ div.image {max-width: 256px;max-height: 256px;background-image: url(data:image/s
   /* color: var(--contrast-color); */
 }
 /* whatsapp end */
+
+/* Frozen Products Certificate Badges */
+.certificate-badge {
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.certificate-badge:hover {
+  transform: translateY(-5px);
+}
+
+.certificate-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  background: linear-gradient(135deg, #87b646 0%, #6d9437 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(135, 182, 70, 0.3);
+}
+
+.certificate-icon i {
+  font-size: 36px;
+  color: white;
+}
+
+.certificate-badge h4 {
+  color: #87b646;
+  font-weight: 700;
+  margin: 15px 0 10px;
+  font-size: 18px;
+}
+
+.certificate-badge p {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Responsive adjustments for certificates */
+@media (max-width: 991px) {
+  .certificate-badge {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .certificate-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .certificate-icon i {
+    font-size: 30px;
+  }
+  
+  .certificate-badge h4 {
+    font-size: 16px;
+  }
+}
+/* End Frozen Products Certificate Badges */
+
+/* Dropdown Menu Fixes */
+.navbar-nav .dropdown-menu {
+  background-color: white;
+}
+
+.navbar-nav .dropdown-menu > li > a {
+  color: #333 !important;
+  padding: 10px 20px;
+}
+
+.navbar-nav .dropdown-menu > li > a:hover,
+.navbar-nav .dropdown-menu > li > a:focus {
+  background-color: orange !important;
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar-nav .open .dropdown-toggle,
+.navbar-nav .open .dropdown-toggle:hover,
+.navbar-nav .open .dropdown-toggle:focus,
+.navbar-nav .open .dropdown-toggle:active {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: inherit !important;
+}
+
+.navbar-nav > li.dropdown.open > a,
+.navbar-nav > li.dropdown.open > a:hover,
+.navbar-nav > li.dropdown.open > a:focus {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+/* End Dropdown Menu Fixes */
+
+/* Frozen Products Responsive Fixes */
+#frozen-products .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#frozen-products .event-wrap {
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+#frozen-products .event-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#frozen-products .event-head img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  #frozen-products .col-md-4:nth-child(4),
+  #frozen-products .col-md-4:nth-child(5) {
+    margin-left: 8.33333%;
+  }
+  
+  #frozen-products .col-md-4:nth-child(4) {
+    clear: left;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #frozen-products .col-sm-6 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  #frozen-products .col-xs-12 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .certificate-badge {
+    margin-bottom: 20px;
+  }
+  
+  .bg-parallax .counter-item {
+    margin-bottom: 40px;
+    text-align: center;
+    min-height: auto;
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+  }
+  
+  .bg-parallax .counter-item img,
+  .bg-parallax .counter-item i {
+    max-width: 64px;
+    height: auto;
+    margin: 0 auto 15px !important;
+    display: block !important;
+    font-size: 64px !important;
+  }
+  
+  .bg-parallax .counter-value {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center !important;
+  }
+  
+  .bg-parallax .counter-desc {
+    font-size: 14px;
+    padding: 0 15px;
+    color: white;
+    line-height: 1.6;
+    text-align: center !important;
+  }
+  
+  .bg-parallax .section-header {
+    margin-bottom: 30px;
+  }
+  
+  .bg-parallax .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* End Frozen Products Responsive Fixes */

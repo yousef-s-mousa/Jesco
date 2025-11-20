@@ -6,6 +6,8 @@
     "processing": "PROCESSING",
     "gallery": "GALLERY",
     "products": "PRODUCTS",
+    "fresh_products": "FRESH PRODUCTS",
+    "frozen_products": "FROZEN PRODUCTS",
     "contact": "CONTACT US"
   },
   "hero": {
@@ -78,6 +80,56 @@
     "contact_title": "Contact Us",
     "address": "20 mohamed El-Mahdy ST El Golf Land - Nasr city - Cairo - Egypt",
   "copyright": "© Copyright 2024 Jesco. All Rights Reserved."
+},
+"frozen": {
+  "page_title": "Frozen Products",
+  "certificates": {
+    "title": "Our Frozen Certificates",
+    "description": "We are proud to hold the following international certifications for our frozen products, ensuring the highest standards of quality, safety, and sustainability.",
+    "iso_22000": "ISO 22000",
+    "iso_22000_desc": "Food Safety Management",
+    "iso_9001": "ISO 9001",
+    "iso_9001_desc": "Quality Management",
+    "iso_14001": "ISO 14001",
+    "iso_14001_desc": "Environmental Management",
+    "brc": "BRC",
+    "brc_desc": "Global Food Safety",
+    "fssc": "FSSC 22000",
+    "fssc_desc": "Food Safety System"
+  },
+  "products": {
+    "title": "Our Frozen Products",
+    "description": "Premium quality frozen fruits and vegetables, carefully selected and processed to preserve maximum freshness, flavor, and nutritional value.",
+    "strawberries": "FROZEN STRAWBERRIES",
+    "strawberries_desc": "Premium quality strawberries frozen at peak ripeness",
+    "mango": "FROZEN MANGO",
+    "mango_desc": "Delicious mango pieces, perfectly frozen",
+    "pomegranate": "FROZEN POMEGRANATE",
+    "pomegranate_desc": "Ruby red pomegranate arils, frozen fresh",
+    "sweetcorn": "FROZEN SWEET CORN",
+    "sweetcorn_desc": "Sweet and tender corn kernels",
+    "broccoli": "FROZEN BROCCOLI",
+    "broccoli_desc": "Fresh broccoli florets, quick frozen"
+  },
+  "why_choose": {
+    "title": "Why Choose Our Frozen Products?",
+    "flash_frozen": {
+      "title": "Flash Frozen",
+      "desc": "Our products are flash frozen within hours of harvest, locking in maximum freshness and nutrients."
+    },
+    "year_round": {
+      "title": "Year-Round Availability",
+      "desc": "Enjoy your favorite fruits and vegetables any time of year, regardless of the season."
+    },
+    "quality_control": {
+      "title": "Strict Quality Control",
+      "desc": "Every product undergoes rigorous quality checks and meets international food safety standards."
+    },
+    "no_preservatives": {
+      "title": "No Preservatives",
+      "desc": "100% natural products with no artificial preservatives, colors, or additives."
+    }
+  }
 },
 "AboutPage":{
   "title": "Our Features",

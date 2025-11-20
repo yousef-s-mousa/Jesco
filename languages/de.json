@@ -6,6 +6,8 @@
     "processing": "VERARBEITUNG",
     "gallery": "GALERIE",
     "products": "PRODUKTE",
+    "fresh_products": "FRISCHE PRODUKTE",
+    "frozen_products": "TIEFKÜHLPRODUKTE",
     "contact": "KONTAKT"
   },
   "hero": {
@@ -76,6 +78,56 @@
     "contact_title": "Kontaktieren Sie uns",
     "address": "20 mohamed El-Mahdy ST El Golf Land - Nasr city - Kairo - Ägypten",
     "copyright": "© Copyright 2024 Jesco. Alle Rechte vorbehalten."
+  },
+  "frozen": {
+    "page_title": "Tiefkühlprodukte",
+    "certificates": {
+      "title": "Unsere Tiefkühl-Zertifikate",
+      "description": "Wir sind stolz darauf, die folgenden internationalen Zertifizierungen für unsere Tiefkühlprodukte zu besitzen, die höchste Standards für Qualität, Sicherheit und Nachhaltigkeit gewährleisten.",
+      "iso_22000": "ISO 22000",
+      "iso_22000_desc": "Lebensmittelsicherheitsmanagement",
+      "iso_9001": "ISO 9001",
+      "iso_9001_desc": "Qualitätsmanagement",
+      "iso_14001": "ISO 14001",
+      "iso_14001_desc": "Umweltmanagement",
+      "brc": "BRC",
+      "brc_desc": "Globale Lebensmittelsicherheit",
+      "fssc": "FSSC 22000",
+      "fssc_desc": "Lebensmittelsicherheitssystem"
+    },
+    "products": {
+      "title": "Unsere Tiefkühlprodukte",
+      "description": "Erstklassige tiefgekühlte Früchte und Gemüse, sorgfältig ausgewählt und verarbeitet, um maximale Frische, Geschmack und Nährwert zu bewahren.",
+      "strawberries": "TIEFGEKÜHLTE ERDBEEREN",
+      "strawberries_desc": "Premium-Erdbeeren, bei optimaler Reife tiefgefroren",
+      "mango": "TIEFGEKÜHLTE MANGO",
+      "mango_desc": "Köstliche Mangoschübe, perfekt gefroren",
+      "pomegranate": "TIEFGEKÜHLTER GRANATAPFEL",
+      "pomegranate_desc": "Rubinrote Granatapfelkerne, frisch gefroren",
+      "sweetcorn": "TIEFGEKÜHLTER SÜSSMAIS",
+      "sweetcorn_desc": "Süße und zarte Maiskörner",
+      "broccoli": "TIEFGEKÜHLTER BROKKOLI",
+      "broccoli_desc": "Frische Brokkoliröschen, schnell gefroren"
+    },
+    "why_choose": {
+      "title": "Warum unsere Tiefkühlprodukte wählen?",
+      "flash_frozen": {
+        "title": "Schockgefroren",
+        "desc": "Unsere Produkte werden innerhalb von Stunden nach der Ernte schockgefroren, um maximale Frische und Nährstoffe einzuschließen."
+      },
+      "year_round": {
+        "title": "Ganzjährige Verfügbarkeit",
+        "desc": "Genießen Sie Ihre Lieblingsfrüchte und -gemüse zu jeder Jahreszeit, unabhängig von der Saison."
+      },
+      "quality_control": {
+        "title": "Strenge Qualitätskontrolle",
+        "desc": "Jedes Produkt durchläuft strenge Qualitätskontrollen und erfüllt internationale Lebensmittelsicherheitsstandards."
+      },
+      "no_preservatives": {
+        "title": "Keine Konservierungsstoffe",
+        "desc": "100% natürliche Produkte ohne künstliche Konservierungsstoffe, Farbstoffe oder Zusatzstoffe."
+      }
+    }
   },
   "AboutPage": {
     

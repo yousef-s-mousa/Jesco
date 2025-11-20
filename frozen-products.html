@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Frozen Products - Jesco</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Jesco Frozen Products - Premium quality frozen fruits and vegetables" />
+    <meta name="keywords" content="frozen products, frozen fruits, frozen vegetables, jesco" />
+    <meta name="author" content="Jesco" />
+    <link rel="stylesheet" href="stylesheets/styles.css" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/css.css" />
+    <link rel="stylesheet" href="stylesheets/flaticon.css" />
+    <link rel="stylesheet" href="stylesheets/font-awesome.css" />
+    <link rel="shortcut icon" href="images/favicon.html" />
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div id="preloader">
+      <div class="aligner">
+        <div class="spinner">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <div class="bar4"></div>
+          <div class="bar5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVBAR -->
+   <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#onepage-nav"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="index.html" title="Jesco">
+            <img class="logo" alt="Jesco" src="images/logo.png" />
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="onepage-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html" data-translate="nav.home">HOME</a></li>
+            <li>
+              <a href="aboutus.html" data-translate="nav.about">ABOUT US</a>
+            </li>
+            <li>
+              <a href="seasons.html" data-translate="nav.seasons">SEASONS</a>
+            </li>
+            <li>
+              <a href="prossesing.html" data-translate="nav.processing"
+                >PROCESSING</a
+              >
+            </li>
+            <li>
+              <a href="gallery.html" data-translate="nav.gallery">GALLERY</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span data-translate="nav.products">PRODUCTS</span> <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="product.html" data-translate="nav.fresh_products">FRESH PRODUCTS</a></li>
+                <li><a href="frozen-products.html" data-translate="nav.frozen_products">FROZEN PRODUCTS</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="contact.html" data-translate="nav.contact">CONTACT US</a>
+            </li>
+            <li class="language-switcher">
+              <select id="languageSelect" onchange="changeLanguage()">
+                <option value="en" data-flag="🇺🇸">English</option>
+                <option value="es" data-flag="🇪🇸">Español</option>
+                <option value="de" data-flag="🇩🇪">Deutsch</option>
+                <option value="ru" data-flag="🇷🇺">Русский</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header
+      class="page-header"
+      data-parallax="scroll"
+      data-image-src="images/header/page_header_bg.html"
+    >
+      <div class="container">
+        <h1 style="color: white" class="section-title">
+          <span data-translate="frozen.page_title">Frozen Products</span> <br />
+          <small><a style="color: white" href="index.html" data-translate="nav.home">HOME</a></small>
+        </h1>
+      </div>
+    </header>
+
+    <!-- CONTENT -->
+    <div class="content" role="main">
+      <!-- Certificates Section -->
+      <section class="bg-light" id="certificates">
+        <div class="container">
+          <div class="section-header">
+            <div class="col-xs-12">
+              <h1 class="section-title" data-translate="frozen.certificates.title">Our Frozen Certificates</h1>
+              <p class="lead" data-translate="frozen.certificates.description">
+                We are proud to hold the following international certifications for our frozen products, ensuring the highest standards of quality, safety, and sustainability.
+              </p>
+            </div>
+          </div>
+          <div class="row text-center ">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+              <div class="certificate-badge">
+                <div class="certificate-icon">
+                  <i class="fa fa-certificate"></i>
+                </div>
+                <h4 data-translate="frozen.certificates.iso_22000">ISO 22000</h4>
+                <p class="text-center" data-translate="frozen.certificates.iso_22000_desc">Food Safety Management</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+              <div class="certificate-badge">
+                <div class="certificate-icon">
+                  <i class="fa fa-certificate"></i>
+                </div>
+                <h4 data-translate="frozen.certificates.iso_9001">ISO 9001</h4>
+                <p class="text-center" data-translate="frozen.certificates.iso_9001_desc">Quality Management</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+              <div class="certificate-badge">
+                <div class="certificate-icon">
+                  <i class="fa fa-certificate"></i>
+                </div>
+                <h4 data-translate="frozen.certificates.iso_14001">ISO 14001</h4>
+                <p class="text-center" data-translate="frozen.certificates.iso_14001_desc">Environmental Management</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+              <div class="certificate-badge">
+                <div class="certificate-icon">
+                  <i class="fa fa-certificate"></i>
+                </div>
+                <h4 data-translate="frozen.certificates.brc">BRC</h4>
+                <p class="text-center" data-translate="frozen.certificates.brc_desc">Global Food Safety</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+              <div class="certificate-badge">
+                <div class="certificate-icon">
+                  <i class="fa fa-certificate"></i>
+                </div>
+                <h4 data-translate="frozen.certificates.fssc">FSSC 22000</h4>
+                <p class="text-center" data-translate="frozen.certificates.fssc_desc">Food Safety System</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section class="bg-white" id="frozen-products">
+        <div class="container ">
+          <div class="section-header">
+            <div class="col-xs-12">
+              <h1 class="section-title" data-translate="frozen.products.title">Our Frozen Products</h1>
+              <div class="separator"></div>
+              <p class="lead" data-translate="frozen.products.description">
+                Premium quality frozen fruits and vegetables, carefully selected and processed to preserve maximum freshness, flavor, and nutritional value.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- Frozen Strawberries -->
+            <div class="col-xs-12 col-sm-6 col-md-4 wow zoomIn">
+              <div class="event-wrap">
+                <div class="event-item">
+                  <div class="event-head">
+                    <div class="event-link" href="#frozen-strawberries">
+                      <img
+                        class="img-responsive"
+                        src="images/frozen/frozen-strawberry.png"
+                        alt="Frozen Strawberries"
+                      />
+                    </div>
+                  </div>
+                  <div class="event-body">
+                    <h5 class="event-title">
+                      <span class="text-color" data-translate="frozen.products.strawberries">FROZEN STRAWBERRIES</span>
+                    </h5>
+                    <p data-translate="frozen.products.strawberries_desc">Premium quality strawberries frozen at peak ripeness</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Frozen Mango -->
+            <div class="col-xs-12 col-sm-6 col-md-4 wow zoomIn" data-wow-delay="0.2s">
+              <div class="event-wrap">
+                <div class="event-item">
+                  <div class="event-head">
+                    <div class="event-link" href="#frozen-mango">
+                      <img
+                        class="img-responsive"
+                        src="images/frozen/frozen-mango.png"
+                        alt="Frozen Mango"
+                      />
+                    </div>
+                  </div>
+                  <div class="event-body">
+                    <h5 class="event-title">
+                      <span class="text-color" data-translate="frozen.products.mango">FROZEN MANGO</span>
+                    </h5>
+                    <p data-translate="frozen.products.mango_desc">Delicious mango pieces, perfectly frozen</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Frozen Pomegranate -->
+            <div class="col-xs-12 col-sm-6 col-md-4 wow zoomIn" data-wow-delay="0.4s">
+              <div class="event-wrap">
+                <div class="event-item">
+                  <div class="event-head">
+                    <div class="event-link" href="#frozen-pomegranate">
+                      <img
+                        class="img-responsive"
+                        src="images/frozen/frozen-pomegranate.png"
+                        alt="Frozen Pomegranate"
+                      />
+                    </div>
+                  </div>
+                  <div class="event-body">
+                    <h5 class="event-title">
+                      <span class="text-color" data-translate="frozen.products.pomegranate">FROZEN POMEGRANATE</span>
+                    </h5>
+                    <p data-translate="frozen.products.pomegranate_desc">Ruby red pomegranate arils, frozen fresh</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Frozen Sweet Corn -->
+            <div class="col-xs-12 col-sm-6 col-md-4  wow zoomIn" data-wow-delay="0.6s">
+              <div class="event-wrap">
+                <div class="event-item">
+                  <div class="event-head">
+                    <div class="event-link" href="#frozen-sweetcorn">
+                      <img
+                        class="img-responsive"
+                        src="images/frozen/frozen-corn.png"
+                        alt="Frozen Sweet Corn"
+                      />
+                    </div>
+                  </div>
+                  <div class="event-body">
+                    <h5 class="event-title">
+                      <span class="text-color" data-translate="frozen.products.sweetcorn">FROZEN SWEET CORN</span>
+                    </h5>
+                    <p data-translate="frozen.products.sweetcorn_desc">Sweet and tender corn kernels</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Frozen Broccoli -->
+            <div class="col-xs-12 col-sm-6 col-md-4 wow zoomIn" data-wow-delay="0.8s">
+              <div class="event-wrap">
+                <div class="event-item">
+                  <div class="event-head">
+                    <div class="event-link" href="#frozen-broccoli">
+                      <img
+                        class="img-responsive"
+                        src="images/frozen/frozen-broccoli.png"
+                        alt="Frozen Broccoli"
+                      />
+                    </div>
+                  </div>
+                  <div class="event-body">
+                    <h5 class="event-title">
+                      <span class="text-color" data-translate="frozen.products.broccoli">FROZEN BROCCOLI</span>
+                    </h5>
+                    <p data-translate="frozen.products.broccoli_desc">Fresh broccoli florets, quick frozen</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Our Frozen Products Section -->
+      <section class="bg-parallax" data-parallax="scroll" data-image-src="images/backgrounds/parallax_bg_01.jpg">
+        <div class="container">
+          <div class="section-header">
+            <div class="col-xs-12">
+              <h1 style="color: white" class="section-title" data-translate="frozen.why_choose.title">Why Choose Our Frozen Products?</h1>
+              <div class="separator"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 counter-item" style="text-align: center;">
+              <i class="fa fa-bolt" style="font-size: 64px; color: white; margin-bottom: 20px; display: block;"></i>
+              <p class="counter-value" data-translate="frozen.why_choose.flash_frozen.title">Flash Frozen</p>
+              <p class="counter-desc" data-translate="frozen.why_choose.flash_frozen.desc">
+                Our products are flash frozen within hours of harvest, locking in maximum freshness and nutrients.
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 counter-item" style="text-align: center;">
+              <i class="fa fa-calendar-check-o" style="font-size: 64px; color: white; margin-bottom: 20px; display: block;"></i>
+              <p class="counter-value" data-translate="frozen.why_choose.year_round.title">Year-Round Availability</p>
+              <p class="counter-desc" data-translate="frozen.why_choose.year_round.desc">
+                Enjoy your favorite fruits and vegetables any time of year, regardless of the season.
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 counter-item" style="text-align: center;">
+              <i class="fa fa-shield" style="font-size: 64px; color: white; margin-bottom: 20px; display: block;"></i>
+              <p class="counter-value" data-translate="frozen.why_choose.quality_control.title">Strict Quality Control</p>
+              <p class="counter-desc" data-translate="frozen.why_choose.quality_control.desc">
+                Every product undergoes rigorous quality checks and meets international food safety standards.
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 counter-item" style="text-align: center;">
+              <i class="fa fa-leaf" style="font-size: 64px; color: white; margin-bottom: 20px; display: block;"></i>
+              <p class="counter-value" data-translate="frozen.why_choose.no_preservatives.title">No Preservatives</p>
+              <p class="counter-desc" data-translate="frozen.why_choose.no_preservatives.desc">
+                100% natural products with no artificial preservatives, colors, or additives.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-widgets">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 footer-widget">
+              <img class="footer-logo" src="images/footer/footer_logo.png" alt="Jesco" />
+              <p class="pd-r-md" data-translate="footer.description">
+                Jesco is one of the best companies in the field of exporting
+                agricultural crops (vegetables and fruits)
+              </p>
+            </div>
+            <div class="col-md-3 footer-widget">
+              <h4 class="widget-title" data-translate="footer.processing_title">PROCESSING</h4>
+              <ul class="links list-unstyled">
+                <li><a href="prossesing.html" data-translate="footer.sorting">SORTING</a></li>
+                <li><a href="prossesing.html" data-translate="footer.packing">PACKING</a></li>
+                <li><a href="prossesing.html" data-translate="footer.export">EXPORT</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 footer-widget">
+              <h4 class="widget-title" data-translate="footer.useful_links">Useful links</h4>
+              <ul class="links list-unstyled">
+                <li><a href="index.html" data-translate="nav.home">HOME</a></li>
+                <li><a href="aboutus.html" data-translate="nav.about">ABOUT US</a></li>
+                <li><a href="prossesing.html" data-translate="nav.processing">PROCESSING</a></li>
+                <li><a href="product.html" data-translate="nav.products">PRODUCTS</a></li>
+                <li><a href="frozen-products.html" data-translate="nav.frozen_products">FROZEN PRODUCTS</a></li>
+                <li><a href="contact.html" data-translate="nav.contact">CONTACT US</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 footer-widget">
+              <h4 class="widget-title" data-translate="footer.contact_title">Contact us</h4>
+              <ul class="links list-unstyled">
+                <li>
+                  <i class="fa fa-envelope mg-r-sm"></i>
+                  <span>info@jesco-eg.com</span>
+                </li>
+                <li>
+                  <i class="fa fa-phone-square mg-r-sm"></i>
+                  <span>+20 128 1492 456</span>
+                </li>
+                <li>
+                  <i class="fa fa-home mg-r-sm"></i>
+                  <span data-translate="footer.address">
+                    20 mohamed El-Mahdy ST El Golf Land - Nasr city - Cairo - Egypt
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-4 copyright-text">
+              <p class="text-white" data-translate="footer.copyright">
+                © Copyright 2024 Jesco. All Rights Reserved.
+              </p>
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-3 col-sm-8 block-socials hidden-xxs">
+              <a class="socials-facebook" href="https://www.facebook.com/profile.php?id=61567760617629" title="facebook">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a class="socials-youtube" href="https://www.youtube.com/@Jesco-Exporting.and.Importing" title="youtube">
+                <i class="fa-brands fa-youtube-play"></i>
+              </a>
+              <a class="socials-twitter" href="https://www.instagram.com/jescoegypt/" title="instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="https://wa.me/+201201111891" target="_blank" id="scroll-top" class="scroll-top"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <!-- SCRIPTS -->
+    <script src="javascripts/core/jquery/jquery.js"></script>
+    <script src="javascripts/core/bootstrap/bootstrap.js"></script>
+    <script src="javascripts/plugins/waypoints.min.js"></script>
+    <script src="javascripts/plugins/wow.min.js"></script>
+    <script src="javascripts/plugins/owlcarousel.min.js"></script>
+    <script src="javascripts/plugins/parallax.min.js"></script>
+    <script src="javascripts/scripts.js"></script>
+    <script src="javascripts/translation.js"></script>
+  </body>
+</html>

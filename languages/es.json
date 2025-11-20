@@ -6,6 +6,8 @@
     "processing": "PROCESAMIENTO",
     "gallery": "GALERÍA",
     "products": "PRODUCTOS",
+    "fresh_products": "PRODUCTOS FRESCOS",
+    "frozen_products": "PRODUCTOS CONGELADOS",
     "contact": "CONTACTO"
   },
   "hero": {
@@ -76,6 +78,56 @@
     "contact_title": "Contáctanos",
     "address": "20 mohamed El-Mahdy ST El Golf Land - Nasr city - Cairo - Egipto",
     "copyright": "© Copyright 2024 Jesco. Todos los Derechos Reservados."
+  },
+  "frozen": {
+    "page_title": "Productos Congelados",
+    "certificates": {
+      "title": "Nuestros Certificados de Congelados",
+      "description": "Nos enorgullece poseer las siguientes certificaciones internacionales para nuestros productos congelados, garantizando los más altos estándares de calidad, seguridad y sostenibilidad.",
+      "iso_22000": "ISO 22000",
+      "iso_22000_desc": "Gestión de Seguridad Alimentaria",
+      "iso_9001": "ISO 9001",
+      "iso_9001_desc": "Gestión de Calidad",
+      "iso_14001": "ISO 14001",
+      "iso_14001_desc": "Gestión Ambiental",
+      "brc": "BRC",
+      "brc_desc": "Seguridad Alimentaria Global",
+      "fssc": "FSSC 22000",
+      "fssc_desc": "Sistema de Seguridad Alimentaria"
+    },
+    "products": {
+      "title": "Nuestros Productos Congelados",
+      "description": "Frutas y verduras congeladas de calidad premium, cuidadosamente seleccionadas y procesadas para preservar la máxima frescura, sabor y valor nutricional.",
+      "strawberries": "FRESAS CONGELADAS",
+      "strawberries_desc": "Fresas de calidad premium congeladas en su punto de madurez óptimo",
+      "mango": "MANGO CONGELADO",
+      "mango_desc": "Deliciosos trozos de mango, perfectamente congelados",
+      "pomegranate": "GRANADA CONGELADA",
+      "pomegranate_desc": "Arilos de granada rojo rubí, congelados frescos",
+      "sweetcorn": "MAÍZ DULCE CONGELADO",
+      "sweetcorn_desc": "Granos de maíz dulce y tierno",
+      "broccoli": "BRÓCOLI CONGELADO",
+      "broccoli_desc": "Floretes de brócoli fresco, congelados rápidamente"
+    },
+    "why_choose": {
+      "title": "¿Por Qué Elegir Nuestros Productos Congelados?",
+      "flash_frozen": {
+        "title": "Congelación Rápida",
+        "desc": "Nuestros productos se congelan rápidamente a las pocas horas de la cosecha, conservando la máxima frescura y nutrientes."
+      },
+      "year_round": {
+        "title": "Disponibilidad Todo el Año",
+        "desc": "Disfruta de tus frutas y verduras favoritas en cualquier época del año, independientemente de la temporada."
+      },
+      "quality_control": {
+        "title": "Control de Calidad Estricto",
+        "desc": "Cada producto se somete a rigurosos controles de calidad y cumple con los estándares internacionales de seguridad alimentaria."
+      },
+      "no_preservatives": {
+        "title": "Sin Conservantes",
+        "desc": "Productos 100% naturales sin conservantes artificiales, colorantes o aditivos."
+      }
+    }
   },
     "AboutPage": {
     "title": "Nuestras Características",
