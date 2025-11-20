@@ -12541,6 +12541,23 @@ div.image {max-width: 256px;max-height: 256px;background-image: url(data:image/s
   background-color: transparent !important;
   color: inherit !important;
 }
+
+/* Mobile Dropdown Fixes */
+@media (max-width: 767px) {
+
+  .navbar-collapse .dropdown-menu > li > a {
+    color: orange !important;
+    text-align: center;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .navbar-collapse .dropdown-menu > li > a:hover,
+  .navbar-collapse .dropdown-menu > li > a:focus {
+    background-color: orange !important;
+    color: white !important;
+  }
+}
 /* End Dropdown Menu Fixes */
 
 /* Frozen Products Responsive Fixes */
